@@ -1,0 +1,141 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+
+/* contact style */
+section{
+    margin:40px 200px 100px;
+    min-height: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+    section{
+        margin:40px 80px 100px !important;
+    }
+    .contact h1{
+        font-size: 24px !important;
+    }
+    .contact p{
+        font-size: 16px !important;
+    }
+    .contact .label-container label{
+        font-size: 14px !important;
+        font-weight: 500;
+    }
+    .contact .label-container input{
+        font-size: 14px !important;
+    }
+    .contact .label-container textarea{
+        font-size: 14px !important;
+    }
+    .contact h5{
+        font-size: 12px !important;
+    }
+    .contact .submit-button{
+        font-size: 14px !important; 
+        font-weight: 500;
+    }
+}
+
+.contact form{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.contact .name-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .name-container .label-container{
+    width:45%;
+}
+
+.contact .label-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.contact .label-container label{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:0 0 8px;
+    padding:0;
+
+}
+
+.contact .label-container input{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding:8px 12px;
+    outline:none;
+    border-radius: 5px;
+}
+
+.contact .label-container textarea{
+    resize: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding:8px 12px;
+    outline:none;
+    border-radius: 5px;
+}
+
+.contact h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.contact p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    margin-top:18px;
+}
+
+.contact h5{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    margin-top:18px;
+    text-align: right;
+}
+
+
+.contact .submit-button{
+    /* width:20%; */
+    width:100%;
+    max-width:160px;
+    margin-top: 40px;
+    padding:15px 0;
+    border-radius:50px;
+    border-color:#144cdf;
+    border-width:medium;
+    border-style:solid;
+    color:white;
+    background-color:black;
+    font-size:20px;
+    cursor:pointer;
+    align-self: center;
+    outline: none;
+
+}
+
+.contact .submit-button:hover{
+    background-color:#144cdf;
+    }
+

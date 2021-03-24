@@ -1,0 +1,13 @@
+footer p{
+    padding-left:80px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    margin:0;
+}
+
+footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}

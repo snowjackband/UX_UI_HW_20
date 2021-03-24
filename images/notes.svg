@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84.103" height="100.123" viewBox="0 0 84.103 100.123">
+  <g id="notes" transform="translate(-5)">
+    <line id="Line_1" data-name="Line 1" x2="32" transform="translate(31 44)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Line_2" data-name="Line 2" x2="32" transform="translate(31 58)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Line_3" data-name="Line 3" x2="13" transform="translate(31 72)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="Path_455" data-name="Path 455" d="M74.286,11H87.1V92.7H7V11H19.816" transform="translate(0 5.419)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="Path_456" data-name="Path 456" d="M50.439,13.214a11.214,11.214,0,0,0-22.429,0H20V26.031H58.449V13.214Z" transform="translate(7.827)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+    <circle id="Ellipse_87" data-name="Ellipse 87" cx="3" cy="3" r="3" transform="translate(44 10)" fill="#111"/>
+    <path id="Path_457" data-name="Path 457" d="M73.878,17V79.48H13V17" transform="translate(3.612 9.031)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

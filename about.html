@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aileen Xin's Portfolio</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <header class="navigation">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <ul class="navigation-links">
+      <li class='navigation-link'><a href="index.html">Home</a></li>
+      <li class='navigation-link'><a href="about.html">About Me</a></li>
+      <li class='navigation-link'><a href="contact.html">Contact</a></li>
+    </ul>
+    <button onclick="openNav()" class="hamburger"><img src="images/ic_menu_24px.svg" alt="hamburger"></button>
+  </header>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+  </div>
+    
+    <section class="content-about-me">
+      <div class="about-me-container">
+        <div class="about-me">
+            <h1>About Me</h1>
+            <p>I am a UX/UI Designer with a background in applied psychology. I am a problem solver, critical thinker and passionate idealist who strives to marry form and function in the digital space. <br>
+                <br>
+                I acquired a wide range of skills throughout my education. I specialise in data analysis, user research and insight development, informed by the unique background in psychology. I am passionate about comprehending user behaviours, solving user problems and creating dynamic user interfaces to bring joy to the user experience. <br>
+                <br>
+                My designs are always user-centred while remaining cognisant of business goals. I am a self-motivated learner and thrives on absorbing new information and skills.</p>
+        </div>
+        <img src="images/About-me-img.svg" alt="About me image" class="about-me-img">
+        </div>
+        <div class="download-resume">
+        <button class="download-resume-button">Download Resume</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2021 Aileen Xin.</p>
+    </footer>
+
+     <script src="scripts/sidenav.js"></script>
+     <script src="scripts/navlinks.js"></script>
+</body>
+</html>

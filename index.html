@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aileen Xin's Portfolio</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+  <header class="navigation">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <ul class="navigation-links">
+      <li class='navigation-link'><a href="index.html">Home</a></li>
+      <li class='navigation-link'><a href="about.html">About Me</a></li>
+      <li class='navigation-link'><a href="contact.html">Contact</a></li>
+    </ul>
+    <button onclick="openNav()" class="hamburger"><img src="images/ic_menu_24px.svg" alt="hamburger"></button>
+  </header>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="content">
+    <div class="self-introduction">
+      <h1>Hi, I am Aileen Xin, a UX/UI Designer.</h1>
+      <p>I am a UX/UI Designer with a background in applied psychology. I am a problem solver, critical thinker and
+        passionate idealist who strives to marry form and function in the digital space. </p>
+    </div>
+    <div class="img-myself">
+    <img src="images/myself.svg" alt="myself" class="myself">
+    
+    <svg class="blue-eclipse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153" height="110" viewBox="0 0 153 110">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="153" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_1)">
+    <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="67.5" cy="46" rx="67.5" ry="46" transform="translate(9 6)" fill="#144cdf"/>
+  </g>
+</svg>
+
+<svg class="yellow-eclipse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220.532" height="227.533" viewBox="0 0 220.532 227.533">
+  <defs>
+    <filter id="Path_10" x="0" y="0" width="220.532" height="227.533" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_10)">
+    <path id="Path_10-2" data-name="Path 10" d="M1656.349,135.7c-38.669-7.5-44.36,21.519-34.06,56.543s36.59,76.056,75.259,83.552,89.717-18.545,79.417-53.569S1695.018,143.2,1656.349,135.7Z" transform="translate(-892.96 1496.13) rotate(-61)" fill="#f7b62d"/>
+  </g>
+</svg>
+
+ <svg class="red-eclipse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="53" viewBox="0 0 47 53">
+  <defs>
+    <filter id="Path_227" x="0" y="0" width="47" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_227)">
+    <path id="Path_227-2" data-name="Path 227" d="M14.5,0C22.508,0,29,7.835,29,17.5S22.508,35,14.5,35,0,27.165,0,17.5,6.492,0,14.5,0Z" transform="translate(9 6)" fill="#fe5621"/>
+  </g>
+</svg>
+
+    </div>
+    <a href="#content-case-study">
+    <img src="images/arrow.svg" alt="arrow" class="arrow">
+    </a>
+  </section>
+
+  <section id="content-case-study" class="content-case-study">
+    <div id="case1" class="case-study">
+      <img src="images/ebuddy.svg" alt="ebuddy" class="case-study-img">
+      <h3><span>eBuddy</span></h3>
+      <p>Designing a social networking app to shorten the process of connecting people who share the same interests. </p>
+    </div>
+
+    <div id="case2" class="case-study">
+      <img src="images/DESE.svg" alt="DESE" class="case-study-img">
+      <h3><span>DESE</span></h3>
+      <p>Redesigning the navigation system and reorganising the presentation of existing information to reduce the cognitive load for users when interacting with the website. </p>
+    </div>
+
+    <div id="case3" class="case-study">
+      <img src="images/Native ARC.svg" alt="Native ARC" class="case-study-img">
+      <h3><span>Native ARC</span></h3>
+      <p>Redesigning a responsive website so that visitors would feel more confident and willing to make donations and apply for volunteer roles to the organisation.</p>
+    </div>
+  </section>
+
+  <section class="content-special">
+      <h1>My Specialties </h1>
+    <div class="content-special-info">
+    <div id="user-research" class="special">
+      <div class="img-container">
+      <img src="images/Icon_search.svg" alt="search" class="special-img">
+      </div>
+      <h2>User Research</h2>
+      <p>Familiar with a variety of qualitative and quantitative research methodologies including user interviews and user surveys.</p>
+    </div>
+
+    <div id="user-empathy" class="special">
+      <div class="img-container">
+      <img src="images/Icon_profile.svg" alt="profile" class="special-img">
+      </div>
+      <h2>User Empathy</h2>
+      <p>Skilled at understanding users’ pain points and goals, and using these to develop effective solutions to resolve problem.</p>
+    </div>
+
+    <div id="qualitative-interview" class="special">
+      <div class="img-container">
+      <img src="images/Icon_message.svg" alt="message" class="special-img">
+      </div>
+      <h2>Qualitative Interview</h2>
+      <p> Capacity to make a logical decision on the type of qualitative interview to use for each project.</p>
+    </div>
+
+    <div id="usability-testing" class="special">
+      <div class="img-container">
+        <img src="images/notes.svg" alt="note" class="special-img">
+      </div>
+      <h2>Usability Testing</h2>
+      <p>Passionate about uncovering user problems and identifying opportunities to improve interface designs.</p>
+    </div>
+    </div>
+  </section>
+
+  <section class="get-in-touch">
+    <img src="images/Hand-left.svg" alt="left hand" class="left-hand">
+    <div class="get-info">
+      <h1>Get In Touch</h1>
+      <div class="social-media">
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" id="Component_35_1" data-name="Component 35 – 1" width="40" height="40" viewBox="0 0 40 40">
+        <rect id="Rectangle_1146" data-name="Rectangle 1146" width="40" height="40"  opacity="0"/>
+        <g id="ic_email_24px" transform="translate(0 4)">
+          <path id="Path_447" data-name="Path 447" d="M38,4H6A4,4,0,0,0,2.02,8L2,32a4.012,4.012,0,0,0,4,4H38a4.012,4.012,0,0,0,4-4V8A4.012,4.012,0,0,0,38,4Zm0,8L22,22,6,12V8L22,18,38,8Z" transform="translate(-2 -4)"/>
+        </g>
+      </svg></a>
+
+      <a href="https://www.behance.net/aileenxin"><svg xmlns="http://www.w3.org/2000/svg" id="Component_36_1" data-name="Component 36 – 1" width="40" height="40" viewBox="0 0 40 40">
+        <rect id="Rectangle_1147" data-name="Rectangle 1147" width="40" height="40" opacity="0"/>
+        <g id="bxl-behance" transform="translate(0 7)">
+          <path id="Path_445" data-name="Path 445" d="M13.6,5.731a15.291,15.291,0,0,1,3.209.31,6.988,6.988,0,0,1,2.485,1.016A4.793,4.793,0,0,1,20.9,8.934a6.626,6.626,0,0,1,.56,2.885,5.394,5.394,0,0,1-.842,3.1,6.088,6.088,0,0,1-2.511,2.029,5.9,5.9,0,0,1,3.379,2.291A6.835,6.835,0,0,1,22.6,23.19a6.8,6.8,0,0,1-.716,3.225,6.217,6.217,0,0,1-1.947,2.227,8.626,8.626,0,0,1-2.8,1.279,12.569,12.569,0,0,1-3.217.412H2V5.731Zm-.7,9.94a3.917,3.917,0,0,0,2.383-.69,2.587,2.587,0,0,0,.926-2.237,2.955,2.955,0,0,0-.3-1.413,2.227,2.227,0,0,0-.834-.856,3.365,3.365,0,0,0-1.193-.43,7.215,7.215,0,0,0-1.393-.122H7.418v5.748Zm.3,10.474a6.894,6.894,0,0,0,1.519-.154,3.543,3.543,0,0,0,1.273-.522,2.586,2.586,0,0,0,.88-.982,3.421,3.421,0,0,0,.324-1.6,3.216,3.216,0,0,0-1.066-2.715,4.57,4.57,0,0,0-2.827-.808H7.418v6.777H13.2Zm17.123-.082a4.355,4.355,0,0,0,3.167,1.076,4.384,4.384,0,0,0,2.555-.746,3.153,3.153,0,0,0,1.305-1.579h4.308a8.164,8.164,0,0,1-3.177,4.6,9.241,9.241,0,0,1-5.158,1.385,10.235,10.235,0,0,1-3.8-.674,8.063,8.063,0,0,1-2.877-1.915,8.736,8.736,0,0,1-1.809-2.969,10.861,10.861,0,0,1-.64-3.8,10.44,10.44,0,0,1,.658-3.726,8.748,8.748,0,0,1,1.867-2.985,8.871,8.871,0,0,1,2.887-1.987,9.264,9.264,0,0,1,3.714-.724,8.462,8.462,0,0,1,3.956.88,7.931,7.931,0,0,1,2.779,2.363,9.645,9.645,0,0,1,1.565,3.381,12.57,12.57,0,0,1,.342,3.964H29.112a5,5,0,0,0,1.211,3.457ZM35.946,16.7a3.659,3.659,0,0,0-2.769-.992,4.216,4.216,0,0,0-1.947.4,3.938,3.938,0,0,0-1.239.982,3.542,3.542,0,0,0-.656,1.255,5.638,5.638,0,0,0-.222,1.173h7.961A4.753,4.753,0,0,0,35.946,16.7ZM28.113,7.382h9.974V9.811H28.113Z" transform="translate(-2 -5.731)"/>
+        </g>
+      </svg></a>
+
+      <a href="https://www.linkedin.com/in/aileenxin/"><svg xmlns="http://www.w3.org/2000/svg" id="Component_37_1" data-name="Component 37 – 1" width="32" height="32" viewBox="0 0 32 32">
+        <rect id="Rectangle_1148" data-name="Rectangle 1148" width="32" height="32" opacity="0"/>
+        <g id="bxl-linkedin" transform="translate(0.053 0.053)">
+          <ellipse id="Ellipse_84" data-name="Ellipse 84" cx="3.806" cy="3.806" rx="3.806" ry="3.806" transform="translate(0 0)"/>
+          <path id="Path_446" data-name="Path 446" d="M13.78,9.077V30.194h6.557V19.751c0-2.756.518-5.424,3.935-5.424,3.37,0,3.411,3.15,3.411,5.6V30.2h6.56V18.615c0-5.689-1.225-10.06-7.874-10.06a6.894,6.894,0,0,0-6.207,3.41h-.089V9.077ZM3.1,9.077H9.662V30.194H3.095Z" transform="translate(-2.573 1.42)"/>
+        </g>
+      </svg></a>
+    </div>
+    </div>
+    <img src="images/Hand-right.svg" alt="right hand" class="right-hand">
+  </section>
+
+  <footer>
+    <p>© 2021 Aileen Xin.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/scroll.js"></script>
+  <script src="scripts/sidenav.js"></script>
+  <script src="scripts/navlinks.js"></script>
+  
+ 
+  
+</body>
+
+</html>

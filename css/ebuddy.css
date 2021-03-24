@@ -1,0 +1,85 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+
+section{
+    margin:0 80px;
+    min-height: 500px;
+}
+
+.ebuddy-hero{
+    text-align: center; 
+}
+
+.ebuddy-hero .ebuddy-img{
+    width:60%;
+}
+
+.ebuddy-hero .arrow-white{
+    position:absolute;
+    left:calc(50% - 25px);
+    width:50px;
+    animation: bounce-arrow 2s infinite;
+    cursor: pointer;
+    bottom:80px; 
+}
+
+.ebuddy-about{
+    margin-top:300px;
+}
+
+.ebuddy-about h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.ebuddy-about p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    word-wrap: break-word;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-research{
+    margin-top:100px;
+}
+
+.ebuddy-research .ebuddy-research-img{
+    width:20%;
+    margin-bottom:20px;
+}
+
+.ebuddy-research p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    word-wrap: break-word;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-competitor-analysis .competitor-analysis-text{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    text-align:center;
+}
+
+.ebuddy-competitor-analysis h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}

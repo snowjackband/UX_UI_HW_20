@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="411" height="100" viewBox="0 0 411 100">
+  <g id="Group_1405" data-name="Group 1405" transform="translate(-140 -13640.001)">
+    <g id="Group_1328" data-name="Group 1328" transform="translate(-742 12785.941)">
+      <path id="Path_2495" data-name="Path 2495" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(882 854.059)" fill="#144cdf"/>
+      <g id="test" transform="translate(904.831 871.452)">
+        <g id="Group_1313" data-name="Group 1313" transform="translate(0 0)">
+          <path id="Path_1222" data-name="Path 1222" d="M69.824,411.907H51.417a1.416,1.416,0,0,0,0,2.832H69.824a1.416,1.416,0,0,0,0-2.832Z" transform="translate(-42.921 -357.265)" fill="#fff"/>
+          <path id="Path_1223" data-name="Path 1223" d="M51.417,373.263h9.2a1.416,1.416,0,0,0,0-2.832h-9.2a1.416,1.416,0,0,0,0,2.832Z" transform="translate(-42.921 -321.661)" fill="#fff"/>
+          <path id="Path_1224" data-name="Path 1224" d="M69.824,328.955H51.417a1.416,1.416,0,0,0,0,2.832H69.824a1.416,1.416,0,1,0,0-2.832Z" transform="translate(-42.921 -286.058)" fill="#fff"/>
+          <path id="Path_1225" data-name="Path 1225" d="M51.417,290.311h9.2a1.416,1.416,0,1,0,0-2.832h-9.2a1.416,1.416,0,0,0,0,2.832Z" transform="translate(-42.921 -250.455)" fill="#fff"/>
+          <path id="Path_1226" data-name="Path 1226" d="M69.824,246H51.417a1.416,1.416,0,0,0,0,2.832H69.824a1.416,1.416,0,1,0,0-2.832Z" transform="translate(-42.921 -214.851)" fill="#fff"/>
+          <path id="Path_1227" data-name="Path 1227" d="M51.417,207.358h9.2a1.416,1.416,0,1,0,0-2.832h-9.2a1.416,1.416,0,1,0,0,2.832Z" transform="translate(-42.921 -179.248)" fill="#fff"/>
+          <path id="Path_1228" data-name="Path 1228" d="M108.456,163.05H96.421a1.416,1.416,0,1,0,0,2.832h12.035a1.416,1.416,0,1,0,0-2.832Z" transform="translate(-81.553 -143.645)" fill="#fff"/>
+          <path id="Path_1229" data-name="Path 1229" d="M62.037,122.99a1.416,1.416,0,0,0-1.416-1.416h-9.2a1.416,1.416,0,0,0,0,2.832h9.2A1.416,1.416,0,0,0,62.037,122.99Z" transform="translate(-42.921 -108.041)" fill="#fff"/>
+          <path id="Path_1230" data-name="Path 1230" d="M69.824,80.1H51.417a1.416,1.416,0,1,0,0,2.832H69.824a1.416,1.416,0,1,0,0-2.832Z" transform="translate(-42.921 -72.438)" fill="#fff"/>
+          <path id="Path_1231" data-name="Path 1231" d="M241.135,88.387a1.416,1.416,0,0,0,2,0l5.873-5.873a1.416,1.416,0,1,0-2-2l-4.872,4.872L240.2,83.448a1.416,1.416,0,0,0-2,2Z" transform="translate(-204.114 -72.437)" fill="#fff"/>
+          <path id="Path_1232" data-name="Path 1232" d="M71.642,48.786l-1.869-1.869a2.93,2.93,0,0,0-4.138,0L61.81,50.742a1.415,1.415,0,0,0-1.949,1.949l-8.886,8.886V28.834A2.835,2.835,0,0,0,48.142,26H2.832A2.835,2.835,0,0,0,0,28.834V88.3a2.835,2.835,0,0,0,2.832,2.832h45.31A2.835,2.835,0,0,0,50.974,88.3V73.592L65.868,58.7a1.415,1.415,0,0,0,1.949-1.949l3.825-3.825a2.93,2.93,0,0,0,0-4.138Zm-29.264,29.4L39.04,79.519l1.335-3.338L61.836,54.72l2,2ZM48.142,88.3H2.832V28.834h45.31V64.409l-9.975,9.975a1.416,1.416,0,0,0-.313.475l-2.67,6.675a1.416,1.416,0,0,0,1.84,1.84L43.7,80.7a1.418,1.418,0,0,0,.475-.313l3.967-3.967Zm21.5-37.382-3.8,3.8-2-2,3.8-3.8a.1.1,0,0,1,.133,0l1.869,1.869A.1.1,0,0,1,69.639,50.922Z" transform="translate(0 -26.002)" fill="#fff"/>
+          <path id="Path_1233" data-name="Path 1233" d="M241.133,171.338a1.416,1.416,0,0,0,2,0l5.873-5.873a1.416,1.416,0,0,0-2-2l-4.872,4.872L240.2,166.4a1.416,1.416,0,0,0-2,2Z" transform="translate(-204.113 -143.643)" fill="#fff"/>
+          <path id="Path_1234" data-name="Path 1234" d="M242.136,254.706a1.411,1.411,0,0,0,1-.415l5.873-5.873a1.416,1.416,0,1,0-2-2l-4.872,4.872-1.935-1.935a1.416,1.416,0,0,0-2,2l2.936,2.936A1.411,1.411,0,0,0,242.136,254.706Z" transform="translate(-204.114 -214.85)" fill="#fff"/>
+          <path id="Path_1235" data-name="Path 1235" d="M51.42,163.05a1.416,1.416,0,1,0,1.417,1.416,1.415,1.415,0,0,0-1.417-1.416Z" transform="translate(-42.925 -143.645)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1285" data-name="Group 1285" transform="translate(-587 13033)">
+      <text id="_05._Testing" data-name="05. Testing" transform="translate(847 682)" fill="#fff" font-size="72" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">05.</tspan><tspan y="0" xml:space="preserve" font-size="56"> Testing</tspan></text>
+      <rect id="Rectangle_1144" data-name="Rectangle 1144" width="90" height="10" transform="translate(847 693)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
