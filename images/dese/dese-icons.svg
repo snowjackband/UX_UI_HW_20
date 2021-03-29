@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="175" viewBox="0 0 812 175">
+  <g id="Group_2052" data-name="Group 2052" transform="translate(-829 -9868)">
+    <g id="Group_1538" data-name="Group 1538" transform="translate(829 9992)">
+      <g id="Rectangle_65" data-name="Rectangle 65" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="51" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-search" data-name="Icon material-search" d="M32.835,29.435H31.044l-.635-.612a14.757,14.757,0,1,0-1.587,1.587l.612.635v1.791L40.769,44.147l3.378-3.378Zm-13.6,0a10.2,10.2,0,1,1,10.2-10.2A10.187,10.187,0,0,1,19.234,29.435Z" transform="translate(1.545 1.464)" fill="#fff"/>
+    </g>
+    <g id="Group_1539" data-name="Group 1539" transform="translate(1133.245 9868)">
+      <g id="Rectangle_116" data-name="Rectangle 116" transform="translate(-0.244)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="52" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="51" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-keyboard-arrow-right" data-name="Icon material-keyboard-arrow-right" d="M0,24.006,10.382,13.6,0,3.2,3.2,0,16.8,13.6,3.2,27.2Z" transform="translate(38.972 17.292) rotate(90)" fill="#fff"/>
+    </g>
+    <g id="Group_1536" data-name="Group 1536" transform="translate(981.733 9992)">
+      <g id="Rectangle_117" data-name="Rectangle 117" transform="translate(0.267)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="52" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="51" height="50" fill="none"/>
+      </g>
+      <path id="Icon_ionic-logo-facebook" data-name="Icon ionic-logo-facebook" d="M43.05,4.5H6.753A2.254,2.254,0,0,0,4.5,6.753v36.3A2.254,2.254,0,0,0,6.753,45.3H24.9V29.152H20.024V23.2H24.9V18.8c0-5.27,3.655-8.139,8.362-8.139,2.253,0,4.675.17,5.238.244v5.5H34.751c-2.561,0-3.05,1.211-3.05,3V23.2h6.1l-.8,5.95H31.7V45.3H43.05A2.254,2.254,0,0,0,45.3,43.05V6.753A2.254,2.254,0,0,0,43.05,4.5Z" transform="translate(1.22 1.464)" fill="#fff"/>
+    </g>
+    <g id="Group_1535" data-name="Group 1535" transform="translate(1133.245 9992)">
+      <g id="Rectangle_117-2" data-name="Rectangle 117" transform="translate(-0.244)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="52" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="51" height="50" fill="none"/>
+      </g>
+      <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M33.678,2.25H2.583A2.6,2.6,0,0,0,0,4.865V35.9a2.6,2.6,0,0,0,2.583,2.615h31.1A2.609,2.609,0,0,0,36.269,35.9V4.865A2.609,2.609,0,0,0,33.678,2.25ZM10.962,33.338H5.586V16.029H10.97V33.338ZM8.274,13.665a3.117,3.117,0,1,1,3.117-3.117A3.118,3.118,0,0,1,8.274,13.665ZM31.112,33.338H25.736v-8.42c0-2.008-.04-4.59-2.793-4.59-2.8,0-3.23,2.186-3.23,4.445v8.565H14.338V16.029h5.157v2.364h.073A5.662,5.662,0,0,1,24.66,15.6c5.44,0,6.452,3.586,6.452,8.25Z" transform="translate(7.176 5.225)" fill="#fff"/>
+    </g>
+    <g id="Group_1528" data-name="Group 1528" transform="translate(1284.756 9992)">
+      <g id="Rectangle_129" data-name="Rectangle 129" transform="translate(0.244)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="52" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="51" height="50" fill="none"/>
+      </g>
+      <g id="Icon_awesome-twitter" data-name="Icon awesome-twitter" transform="translate(7.825 12.955)">
+        <path id="Icon_awesome-twitter-2" data-name="Icon awesome-twitter" d="M32.574,10.729c.023.322.023.645.023.968,0,9.837-7.487,21.171-21.171,21.171A21.027,21.027,0,0,1,0,29.527a15.393,15.393,0,0,0,1.8.092,14.9,14.9,0,0,0,9.238-3.179,7.454,7.454,0,0,1-6.957-5.16,9.383,9.383,0,0,0,1.405.115,7.87,7.87,0,0,0,1.958-.253,7.442,7.442,0,0,1-5.967-7.3v-.092a7.494,7.494,0,0,0,3.363.944,7.452,7.452,0,0,1-2.3-9.952,21.15,21.15,0,0,0,15.342,7.786,8.4,8.4,0,0,1-.184-1.7A7.448,7.448,0,0,1,30.569,5.73a14.65,14.65,0,0,0,4.723-1.8,7.421,7.421,0,0,1-3.271,4.1,14.917,14.917,0,0,0,4.285-1.152,16,16,0,0,1-3.732,3.847Z" transform="translate(0 -3.381)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1529" data-name="Group 1529" transform="translate(1438.533 9992)">
+      <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(0.467)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="51" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+      </g>
+      <g id="email-24px" transform="translate(3.467 3)">
+        <path id="Path_1161" data-name="Path 1161" d="M0,0H45.336V45.336H0Z" fill="none"/>
+        <path id="Path_1162" data-name="Path 1162" d="M37.362,4H5.929A4.043,4.043,0,0,0,2.02,8.156L2,33.091a4.059,4.059,0,0,0,3.929,4.156H37.362a4.059,4.059,0,0,0,3.929-4.156V8.156A4.059,4.059,0,0,0,37.362,4Zm0,8.312L21.646,22.7,5.929,12.312V8.156l15.717,10.39L37.362,8.156Z" transform="translate(1.022 2.045)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1530" data-name="Group 1530" transform="translate(1284.756 9868)">
+      <g id="Rectangle_131" data-name="Rectangle 131" transform="translate(0.244)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="52" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="51" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left" d="M28.8,32.256l-10.382-10.4L28.8,11.446l-3.2-3.2L12,21.851l13.6,13.6Z" transform="translate(4.137 3.84)" fill="#fff"/>
+    </g>
+    <g id="Group_1531" data-name="Group 1531" transform="translate(829 9868)">
+      <g id="Rectangle_131-2" data-name="Rectangle 131" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="51" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-menu" data-name="Icon material-menu" d="M4.5,28.549H33.824V25.291H4.5Zm0-8.145H33.824V17.145H4.5ZM4.5,9v3.258H33.824V9Z" transform="translate(6.078 7.623)" fill="#fff"/>
+    </g>
+    <g id="Group_1532" data-name="Group 1532" transform="translate(1590 9992)">
+      <g id="Rectangle_131-3" data-name="Rectangle 131" transform="translate(0)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="51" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-close" data-name="Icon material-close" d="M37.724,10.544,34.68,7.5,22.612,19.568,10.544,7.5,7.5,10.544,19.568,22.612,7.5,34.68l3.044,3.044L22.612,25.656,34.68,37.724l3.044-3.044L25.656,22.612Z" transform="translate(2.697 2.997)" fill="#fff"/>
+    </g>
+    <g id="Group_1533" data-name="Group 1533" transform="translate(1438.533 9868)">
+      <g id="Rectangle_131-4" data-name="Rectangle 131" transform="translate(0.467)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="51" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-arrow-drop-down" data-name="Icon material-arrow-drop-down" d="M10.5,15,21.834,26.334,33.168,15Z" transform="translate(4.312 4.646)" fill="#fff"/>
+    </g>
+    <g id="Group_1534" data-name="Group 1534" transform="translate(1590 9868)">
+      <g id="Rectangle_515" data-name="Rectangle 515" transform="translate(0)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="51" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="50" height="50" fill="none"/>
+      </g>
+      <g id="arrow_forward-24px" transform="translate(7.175 7.556)">
+        <path id="Path_1163" data-name="Path 1163" d="M0,0H36.269V36.269H0Z" fill="none"/>
+        <path id="Path_1164" data-name="Path 1164" d="M16.09,4,13.959,6.131l8.433,8.448H4V17.6H22.391l-8.433,8.448,2.131,2.131,12.09-12.09Z" transform="translate(2.045 2.045)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1537" data-name="Group 1537" transform="translate(981.733 9868)">
+      <g id="Rectangle_116-2" data-name="Rectangle 116" transform="translate(0.267)" fill="#fff" stroke="#000" stroke-width="1" opacity="0">
+        <rect width="52" height="51" stroke="none"/>
+        <rect x="0.5" y="0.5" width="51" height="50" fill="none"/>
+      </g>
+      <path id="Icon_material-keyboard-arrow-right-2" data-name="Icon material-keyboard-arrow-right" d="M0,24.006,10.382,13.6,0,3.2,3.2,0,16.8,13.6,3.2,27.2Z" transform="translate(11.851 34.089) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

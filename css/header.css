@@ -42,6 +42,10 @@
     color: white !important;
 }
 
+.white-link{
+    color: white !important;
+}
+
 .navigation-link a{
     text-decoration:none;
     color:rgba(255,255,255,0.6);
@@ -59,3 +63,4 @@
     border:none;
     outline:none;
 }
+

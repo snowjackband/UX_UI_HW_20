@@ -1,0 +1,279 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aileen Xin's Portfolio</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+  <link rel="stylesheet" href="css/dese.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="navigation" class="navigation">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <ul class="navigation-links">
+      <li class='navigation-link'><a href="index.html">Home</a></li>
+      <li class='navigation-link'><a href="about.html">About Me</a></li>
+      <li class='navigation-link'><a href="contact.html">Contact</a></li>
+    </ul>
+    <button onclick="openNav()" class="hamburger"><img src="images/ic_menu_24px.svg" alt="hamburger"></button>
+  </header>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="navigation-link" href="index.html">Home</a>
+    <a class="navigation-link" href="about.html">About Me</a>
+    <a class="navigation-link" href="contact.html">Contact</a>
+  </div>
+
+  <a href="#navigation"><img src="images/dese/chevron.png" alt="chevron" class="dese-chevron"></a>
+
+  <section class="dese-hero">
+    <img src="images/dese/dese-hero.png" alt="dese-img" class="dese-img">
+        <a href="#dese-about" class="arrow-link">
+            <img src="images/arrow.svg" alt="arrow-white" class="arrow-white">
+        </a>
+</section>
+
+<section id="dese-about" class="dese-about">
+    <h2>About the Project:</h2>
+    <br>
+    <p>The current Department of Education, Skills and Employment (DESE) site has some information architecture (IA) and user interface (UI) design issues where users feel mentally exhausted going through an overwhelming amount of information in the navigation bar and web pages to navigate themselves to the desired site page. The solution was to redesign the navigation system and reorganise the presentation of existing information to reduce the cognitive load for users when interacting with the website.</p>
+        <br>
+    <p><strong>Role & Responsibilities:</strong> As one of the main UI designers, I have been involved in all phases of the project. Main responsibilities were conducting user interface research, determining the information architecture of the website, illustrating design ideas and prototyping. 
+    </p>
+        <br>
+    <p><strong>Duration:</strong> 5 weeks</p>
+        <br>
+    <p><strong>Methods:</strong> User Interview, Persona Creation, Wireframes, Prototyping</p>
+        <br>
+    <p><strong>Tools:</strong> Adobe XD, InVision, Miro, Usability Hub, Zoom</p>
+</section>
+
+<section class="dese-research">
+    <h3>RESEARCH</h3>
+    <h2>User Interface Research outcomes</h2>
+    <br>
+    <p>We have utilised three research methods to identify any UI pain points that users experience while interacting with the DESE website: heuristic evaluation, colour accessibility test and moderated remote usability tests.</p>
+    <div class="secondary-navigation">
+        <img src="images/dese/secondary-navigation.svg" alt="secondary-navigation" class="secondary-navigation-img">
+        <div class="secondary-navigation-text">
+            <h3>Secondary navigation (Desktop)</h3>
+            <br>
+            <p>The website adopted the conventional dropdown menus for its desktop navigation. However, the number of links to read through within the secondary navigation overwhelmed most users.</p>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menu-text">
+            <h3>Menu (Mobile)</h3>
+            <br>
+            <p>The website uses the hamburger menu for its mobile navigation. Again, the amount of information being presented within the menu was reported as overwhelming to most users. </p>
+        </div>
+        <img src="images/dese/menu.svg" alt="menu" class="menu-img">
+    </div>
+
+    <div class="website-cards">
+        <img src="images/dese/webcards.svg" alt="website-cards" class="website-cards-img">
+        <div class="website-cards-text">
+            <h3>Website cards</h3>
+            <br>
+            <p>Too much negative space in the card. The information provided in the cards is pretty similar to the primary navigation bar. It is redundant to have both. </p>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <div class="search-bar-text">
+            <h3>Search bar</h3>
+            <br>
+            <p>Users expected the search bar would stay at its original spot when searching instead of directing users to a different search page. </p>
+        </div>
+        <img src="images/dese/search-bar.svg" alt="search-bar" class="search-bar-img">
+    </div>
+
+    <div class="card-sorting">
+        <h2>Card Sorting</h2>
+        <br>
+        <p>Cards for all the primary and secondary pages that appear in the DESE website navigation were created. We created a new website structure by using the define, group and structure approach.  </p>
+        <img src="images/dese/card-sorting.svg" alt="card-sorting" class="card-sorting-img">
+    </div>
+
+    <div class="sitemap">
+        <h2>Sitemap</h2>
+        <img src="images/dese/site-map-1.svg" alt="sitemap-1" class="sitemap-img">
+        <h5>Navigation bar hierarchy </h5>
+        <img src="images/dese/site-map-2.svg" alt="sitemap-2" class="sitemap-img">
+        <h5>Footer hierarchy </h5>
+    </div>
+</section>
+
+<section class="dese-design">
+    <h3>DESIGN</h3>
+    <h2>User Interface Designs</h2>
+    <div class="title-text">
+        <h2>Colour Palette & Typography </h2>
+        <p>A range of colours and fonts were selected inspired by the original brand design.</p>
+    </div>
+    <br>
+    <h4>Primary colours</h4>
+    <p>Cyan blue is a restful and calming colour that symbolises relaxation, trust and serenity. Hot pink calls to mind feelings of alert, passion and warmth which is great for CTA buttons. </p>
+    <div class="primary-colours">
+        <div class="dark-cyan-blue">
+            <img src="images/dese/dark-cyan-blue-img.svg" alt="dark-cyan-blue" class="darl-cyan-blue-img">
+            <h4>Dark Cyan Blue</h4>
+            <h5>#034aa6</h5>
+        </div>
+
+        <div class="cyan-blue">
+            <img src="images/dese/cyan-blue.svg" alt="cyan-blue" class="cyan-blue-img">
+            <h4>Cyan Blue</h4>
+            <h5> #0476d9</h5>
+        </div>
+
+        <div class="hot-pink">
+            <img src="images/dese/hot-pink.svg" alt="hot-pink" class="hot-pink-img">
+            <h4>Hot Pink</h4>
+            <h5>#ed2160</h5>
+        </div>
+    </div>
+
+    <h4>Secondary colours</h4>
+    <div class="secondary-colours">
+        <div class="cyan">
+            <img src="images/dese/cyan.svg" alt="cyan" class="cyan-img">
+            <h4>Cyan</h4>
+            <h5>#06aff2</h5>
+        </div>
+
+        <div class="orange-peel">
+            <img src="images/dese/orange-peel.svg" alt="orange-peel" class="orange-peel-img">
+            <h4>Orange Peel</h4>
+            <h5>#f29f05</h5>
+        </div>
+
+        <div class="yellow">
+            <img src="images/dese/yellow.svg" alt="yellow" class="yellow-img">
+            <h4>Yellow</h4>
+            <h5>#f2b704</h5>
+        </div>
+    </div>
+
+    <div class="typography-text-intro">
+        <p>Typography uses the san serif font: Poppins and Open Sans. These two fonts have very clean, friendly and neutral appearances, and excellent legibility and clarity characteristics in their letterforms, which are ideal for clear communication with a government agency website.  </p>
+    </div>
+
+    <div class="typography-text-demo">
+        <p>Poppins</p>
+        <div class="abc-poppins">
+            <p>AaBbCc</p>
+            <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                abcdefghijklmnopqrstuvwxyz
+                0123456789
+                ~%!@#$%^&*-_=+
+                 []{}()|\/‘’”,.;:?</p>
+        </div>
+        <p>Open Sans</p>
+        <div class="abc-open-sans">
+            <p>AaBbCc</p>
+            <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                abcdefghijklmnopqrstuvwxyz
+                0123456789
+                ~%!@#$%^&*-_=+
+                 []{}()|\/‘’”,.;:?</p>
+        </div>
+    </div>
+
+    <div class="iconography">
+        <img src="images/dese/dese-icons.svg" alt="dese-icons" class="dese-icons-img">
+        <div class="iconography-text">
+            <h2>Iconography </h2>
+            <br>
+            <p>Iconography used filled icons from Google material design.</p>
+        </div>
+    </div>
+
+    <div class="illutrations">
+        <div class="illutration-text">
+            <h2>Illutrations</h2>
+            <br>
+            <p>Illustrations were retrieved from unDraw.</p>
+        </div>
+        <img src="images/dese/dese-illutration-1.svg" alt="dese-illutration-1" class="dese-illutration-1">
+        <img src="images/dese/dese-illutration-2.svg" alt="dese-illutration-2" class="dese-illutration-2">
+        <img src="images/dese/dese-illutration-3.svg" alt="dese-illutration-3" class="dese-illutration-3">
+        <img src='images/dese/dese-illutration-4.svg' alt="dese-illutration-4" class="dese-illutration-4">
+        <img src="images/dese/dese-illutration-5.svg" alt="dese-illutration-5" class="dese-illutration-5">
+    </div>
+</section>
+
+<section class="dese-testing">
+    <h3>ITERATE</h3>
+    <h2>User Interface Design Iterations</h2>
+    <div class="dese-usability-testing">
+        <div class="dese-usability-testing-text">
+            <h2>Usability Testing</h2>
+            <br>
+            <p>The objective was to pinpoint any UI design issues with the high-fidelity mobile and desktop prototypes with functioning navigation through completing a series of tasks. </p>
+            <ul>
+                <li>- 7 users, 5 tasks.</li>
+                <li>- 100% success rate for each task.</li>
+                <li>- More than 50% of participants struggled to drag the carousel on the mobile design.</li>
+                <li>- More than 40% of participants experienced different levels of difficulties tapping on the dropdown menu for the mobile design.</li>
+            </ul>
+        </div>
+        <div class="dese-annotation">
+            <img src="images/dese/dese-annotation.svg" alt="dese-annotation" class="dese-annotation-img">
+            <h3>Annotating and Redlining Usability Issues</h3>
+        </div>
+    </div>
+    <img src="images/dese/dese-mockups.svg" alt="dese-mockups" class="dese-mockups">
+</section>
+
+<section class="dese-summary">
+    <h2>Key takeaways</h2>
+    <ul>
+        <li>- Gave users a primary path to reach the desired page efficiently and seamlessly.</li>
+        <br>
+        <li>- Insightful and excellent project to help us familiarise/develop on UI. </li>
+        <br>
+        <li>- As UI designers we need to familiarise ourselves with responsive designs, since there is a growing number of devices available to us with different screen sizes, orientations and platforms.</li>
+        <br>
+        <li>Success metric: We learned a lot about UI design and it will help us smash the next project!</li>
+    </ul>
+</section>
+
+<iframe src="https://marvelapp.com/prototype/5734b0i?emb=1&iosapp=false&frameless=false" width="600" height="1465" frameborder="0"></iframe>
+
+<section class="more-case-studies">
+    <h2>Check Out More Below</h2>
+    <div class="case-studies">
+        <div class="DESE">
+            <img src="images/ebuddy.svg" alt="ebuddy" class="ebuddy-img">
+            <h3>eBuddy</h3>>
+        </div>
+        <div class="Native ARC">
+            <img src="images/Native ARC.svg" alt="Native ARC" class="Native-ARC-img">
+            <h3>Native ARC</h3>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <p>© 2021 Aileen Xin.</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/scroll.js"></script>
+  <script src="scripts/sidenav.js"></script>
+  <script src="scripts/navlinks.js"></script>
+</body>
+
+</html>

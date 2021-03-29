@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <header class="navigation">
+  <header id="navigation" class="navigation">
     <img src="images/logo.svg" alt="logo" class="logo">
     <ul class="navigation-links">
       <li class='navigation-link'><a href="index.html">Home</a></li>
@@ -30,19 +30,21 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="contact.html">Contact</a>
+    <a class="navigation-link" href="index.html">Home</a>
+    <a class="navigation-link" href="about.html">About Me</a>
+    <a class="navigation-link" href="contact.html">Contact</a>
   </div>
+
+<a href="#navigation"><img src="images/ebuddy/chevron.svg" alt="chevron" class="ebuddy-chevron"></a>
 
 <section class="ebuddy-hero">
     <img src="images/ebuddy/ebuddy-hero.svg" alt="ebuddy-img" class="ebuddy-img">
-        <a>
+        <a href="#ebuddy-about" class="arrow-link">
             <img src="images/arrow.svg" alt="arrow-white" class="arrow-white">
         </a>
 </section>
 
-<section class="ebuddy-about">
+<section id="ebuddy-about" class="ebuddy-about">
     <h2>About the Project:</h2>
     <br>
     <p>eBuddy is a social networking app that focuses on helping people who struggle to find the right person, to do the right thing, at the right time to establish genuine and meaningful social connections with others who share the same interests and passions with them from a virtual world to real life.</p>
@@ -58,10 +60,22 @@
 
 <section class="ebuddy-research">
     <img src="images/ebuddy/ebuddy-research-img.svg" alt="ebuddy-research-img" class="ebuddy-research-img">
-    <p>We conducted <strong>5 one-on-one semi-structured</strong>user interviews over Zoom and surveys on Google Forms and Facebook to acquire a broader range of responses. </p>
+    <p>We conducted <strong>5 one-on-one semi-structured</strong> user interviews over Zoom and surveys on Google Forms and Facebook to acquire a broader range of responses. </p>
     <br>
     <p><strong>The key findings derived from the interviews and surveys:</strong></p>
     <div class="research-text">
+        <div id="large-yellow-circle" class="circle yellow large">
+            Sharing commonalities such as common interests or hobbies play an important role in forming a new social connection with people both online and offline.
+        </div>
+        <div id="small-blue-circle" class="circle blue small">
+            People are concerned about online security and privacy issues.
+        </div>
+        <div id="medium-blue-circle" class="circle blue medium">
+            People feel exhausted to spend a lot of time and effort in finding the right person to talk to online.
+        </div>
+        <div id="medium-yellow-circle" class="circle yellow medium">
+            Comfortable chatting and not being awkward is important for people when they first start to chat with fresh faces.
+        </div>
         <img src="images/ebuddy/read-book-girl.svg" alt="read-book-girl-img" class="read-book-girl-img">
     </div>
     
@@ -73,12 +87,12 @@
                 <br>
                 From our analysis, it was evident how our competitors allow their users to <strong>create user profiles</strong> and <strong>login/sign up</strong>within the app. These and other features allow us to take into consideration for our design concepts.</p>
         </div>
-       
+       <img src="images/ebuddy/ebuddy-competitors.png" alt="ebuddy-competitors" class="ebuddy-competitors">
     </div>
 </section>
 
 <section class="ebuddy-definition">
-    <img src="images/ebuddy/ebuddy-definition-img.svg" alt="buddy-definition-img" class="ebuddy-definition-img">
+    <img src="images/ebuddy/ebuddy-definition-img.svg" alt="ebuddy-definition-img" class="ebuddy-definition-img">
     <h2>Problem Statement:</h2>
     <br>
     <p>ebuddy is designed to help mentally exhausted active social media users effectively and efficiently connect to people who share commonalities such as similar interests or passions with them since we have observed that people have spent a lot of time and effort struggling to search for specific interest matches online. </p>
@@ -88,6 +102,7 @@
     <h2>User Persona:</h2>
     <br>
     <p>Based on the research results, the main persona was identified:</p>
+    <br>
     <img src="images/ebuddy/ebuddy-user-persona.svg" alt="ebuddy-user-persona-img" class="ebuddy-user-persona-img">
     </div>
 </section>
@@ -97,29 +112,33 @@
     <h2>Storyboard:</h2>
     <br>
     <p>A storyboard was drawn to visualize a user’s journey when getting to use the eBuddy app. </p>
+    <br>
     <img src="images/ebuddy/ebuddy-storyboard.svg" alt="ebuddy-storyboard-img" class="ebuddy-storyboard-img">
     <div class="ebuddy-user-flow">
         <h2>User Flow</h2>
         <br>
         <p>User flows were created to display the complete path a user takes when verifying user identity, using the in-app ice-breaker games and filtering out individual users based on shared interests. </p>
-        <div class="fillter-out">
-            <img src="images/ebuddy/ebuddy-filter-out.svg" alt="ebuddy-filter-out" class="ebuddy-filter-out-img">
-            <div class="filter-out-text">
-                <p>Filter out individual users based on shared interests</p>
-            </div>
-        </div>
-        <div class="user-identity-verification">
-            <img src="images/ebuddy/ebuddy-vertification.svg" alt="ebuddy-user-vertification" class="ebuddy-user-identification-img">
-            <div class="user-identity-vertification-text">
-                <p>User identity vertification</p>
-            </div>
-        </div>
-        <div class="ice-breaker">
-            <img src="images/ebuddy/ebuddy-ice-breaker.svg" alt="ebuddy-ice-breaker" class="ebuddy-ice-breaker-img">
-            <div class="ice-breaker-text">
-                <p>In-app ice-breaker games</p>
-            </div>
-        </div>
+        <div class="user-flow-cards">
+            <a href="filter-out.html" target="_blank" id="fillter-out" class="uf-cards">
+                <img src="images/ebuddy/ebuddy-filter-out.svg" alt="ebuddy-filter-out" class="ufc-img">
+                    <div class="ufc-text">
+                        <p>Filter out individual users based on shared interests</p>
+                    </div>
+            </a>
+            <a href="identity-verification.html" target="_blank" id="user-identity-verification" class="uf-cards">
+                <img src="images/ebuddy/ebuddy-identity.svg" alt="ebuddy-user-vertification" class="ufc-img">
+                    <div class="ufc-text">
+                        <p>User identity vertification</p>
+                    </div>
+            </a>
+
+            <a href="ice-breaker-games.html" target="_blank" id="ice-breaker" class="uf-cards">
+                <img src="images/ebuddy/ebuddy-ice-breakers.svg" alt="ebuddy-ice-breaker" class="ufc-img">
+                    <div class="ufc-text">
+                        <p>In-app ice-breaker games</p>
+                    </div>
+            </a>
+        </div> 
     </div>
 </section>
 
@@ -128,7 +147,9 @@
     <h2>Low Fidelity Wireframes:</h2>
     <br>
     <p>We created low-fidelity wireframes and prototypes using Adobe XD to brainstorm and test the initial design ideas.</p>
-    <img src="images/ebuddy/ebuddy-low-fidelity.svg" alt="ebuddy-low-fidelity" class="ebuddy-low-fidelity">
+    <div class="ebuddy-low-fidelity-container">
+        <img src="images/ebuddy/ebuddy-low-fidelity.svg" alt="ebuddy-low-fidelity" class="ebuddy-low-fidelity">
+    </div>
 </section>
 
 <section class="ebuddy-testing">
@@ -140,15 +161,15 @@
             <p>We created a test plan for users to complete consecutive tasks on the high-fidelity prototype. </p>
             <br>
             <ul>
-                <li>5 users, 4 tasks </li>
-                <li>100% success rate </li>
+                <li>- 5 users, 4 tasks. </li>
+                <li>- 100% success rate. </li>
             </ul>
             <br>
             <p><strong>We gained following insights:</strong></p>
             <ul>
-                <li>Two participants struggled a bit to find the match button</li>
-                <li>One participant commented the heart icon did not signify if they are likes options for a specific feature or to match with someone</li>
-                <li>Two participants clicked the setting icon instead of editing profile to verify the account. </li>
+                <li>- Two participants struggled a bit to find the match button.</li>
+                <li>- One participant commented the heart icon did not signify if they are likes options for a specific feature or to match with someone.</li>
+                <li>- Two participants clicked the setting icon instead of editing profile to verify the account. </li>
             </ul>
         </div>
         <div class="ebuddy-annotation">
@@ -162,24 +183,35 @@
 <section class="ebuddy-summary">
     <img src="images/ebuddy/ebuddy-summary.svg" alt="ebuddy-summary-img" class="ebuddy-summary-img">
     <ul>
-        <li>Teamwork is the key to success. Since this project requires three teammates to work together and build a clickable mobile app prototype from the beginning, it is really important to communicate with teammates and distribute the workload based on each person’s speciality and availability. Bad teamwork will significantly affect the project progress and final outcomes.  </li>
-        <li>Good time management also plays an important role in the group project. Since we only have three weeks to develop a clickable prototype from scratch, every class we have to ensure we complete the designated tasks on time. Otherwise, the number of tasks we need to complete will accumulate and become overwhelming . We have used tools like Trello and Google calendar to help us get on top of tasks and manage each person’s time better. </li>
+        <li>- Teamwork is the key to success. Since this project requires three teammates to work together and build a clickable mobile app prototype from the beginning, it is really important to communicate with teammates and distribute the workload based on each person’s speciality and availability. Bad teamwork will significantly affect the project progress and final outcomes.  </li>
+        <br>
+        <li>- Good time management also plays an important role in the group project. Since we only have three weeks to develop a clickable prototype from scratch, every class we have to ensure we complete the designated tasks on time. Otherwise, the number of tasks we need to complete will accumulate and become overwhelming . We have used tools like Trello and Google calendar to help us get on top of tasks and manage each person’s time better. </li>
     </ul>
 </section>
 
 <section class="more-case-studies">
-    <h2>Check out more Below</h2>
+    <h2>Check Out More Below</h2>
+    <div class="case-studies">
+        <div class="DESE">
+            <img src="images/DESE.svg" alt="DESE" class="DESE-img">
+            <h3>DESE</h3>>
+        </div>
+        <div class="Native ARC">
+            <img src="images/Native ARC.svg" alt="Native ARC" class="Native-ARC-img">
+            <h3>Native ARC</h3>
+        </div>
+    </div>
+
+
     
 </section>
 <footer>
     <p>© 2021 Aileen Xin.</p>
   </footer>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="scripts/scroll.js"></script>
   <script src="scripts/sidenav.js"></script>
   <script src="scripts/navlinks.js"></script>
-  
 </body>
 
 </html>

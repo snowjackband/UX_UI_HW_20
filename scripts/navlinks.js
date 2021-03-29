@@ -7,9 +7,11 @@ let page = path.split("/").pop();
 const HOME = "index.html";
 const ABOUT = "about.html";
 const CONTACT = "contact.html";
+const CASESTUDY = ["ebuddy.html", "dese.html", "jade.html"];
 const HOME_LINK = "HOME";
 const ABOUT_LINK = "ABOUT ME";
 const CONTACT_LINK = "CONTACT";
+
 
 const navigation = document.getElementsByClassName("navigation-link");
 
@@ -35,12 +37,23 @@ if (!HOME.localeCompare(page)){
             navigation[i].classList.add("white-link");
         }
     };
-}else if (!CONTACT.localeCompare(page)){
+}else if(!CONTACT.localeCompare(page)){
     
     for(let i=0; i<navigation.length; i++){
         if(!navigation[i].textContent.toUpperCase().localeCompare(CONTACT_LINK)){
             navigation[i].classList.add("white-link");
         }
       
+    };
+}else if(CASESTUDY.includes(page)){
+    console.log(page);
+    console.log(navigation.length);
+    console.log(navigation);
+    for(let i=0; i<navigation.length; i++){
+        
+        console.log(navigation.length);
+        if(!navigation[i].textContent.toUpperCase().localeCompare(HOME_LINK)){
+            navigation[i].classList.add("white-link");
+        } 
     };
 }

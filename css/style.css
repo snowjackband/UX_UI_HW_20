@@ -243,6 +243,7 @@ section{
     grid-area: case3;
 }
 
+
 .content-case-study .case-study{
     text-align: center;
 }
@@ -278,6 +279,10 @@ section{
 
 .content-case-study h3:hover{
     text-decoration: underline;
+}
+
+.case-study a{
+    text-decoration:none;
 }
 
 /* content-special style */

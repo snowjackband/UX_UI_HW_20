@@ -2,6 +2,7 @@ body{
     background-color:black;
     margin:0;
     padding:0;
+    position:relative;
 }
 
 section{
@@ -9,8 +10,33 @@ section{
     min-height: 500px;
 }
 
+@media only screen and (max-width: 500px) {
+    section{
+        min-height:fit-content;
+    }
+}
+
+.ebuddy-chevron{
+    position:fixed;
+    width:48px;
+    height:48px;
+    right:80px;
+    top:90vh;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 800px) {
+    .ebuddy-chevron{
+        width: 36px !important;;
+        height: 36px !important;
+    }
+}
+
+/* hero section */
 .ebuddy-hero{
-    text-align: center; 
+    text-align: center;
+    position:relative; 
+    margin:auto 0;
 }
 
 .ebuddy-hero .ebuddy-img{
@@ -23,11 +49,37 @@ section{
     width:50px;
     animation: bounce-arrow 2s infinite;
     cursor: pointer;
-    bottom:80px; 
+    bottom:60px; 
 }
 
+@keyframes bounce-arrow{
+    from{
+        bottom:60x;
+    }
+
+    50%{
+        bottom:40px;
+    }
+    
+    to{
+        bottom:60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .arrow-link{
+        display: none !important;
+    }
+
+
+    .ebuddy-hero .ebuddy-img{
+        width:100% !important;
+    }
+}
+
+/* about the project */
 .ebuddy-about{
-    margin-top:300px;
+    margin-top:200px;
 }
 
 .ebuddy-about h2{
@@ -49,6 +101,19 @@ section{
     padding:0;
 }
 
+@media only screen and (max-width: 800px){
+    .ebuddy-about{
+        margin-top:0px !important;
+    }
+    .ebuddy-about p{
+        font-size:16px !important;
+    }
+    .ebuddy-about h2{
+        font: size 24px !important;
+    }
+
+}
+/* research */
 .ebuddy-research{
     margin-top:100px;
 }
@@ -61,18 +126,103 @@ section{
 .ebuddy-research p{
     font-family:'Nunito', sans-serif;
     font-size:20px;
-    word-wrap: break-word;
     color:white;
     font-weight:100;
     margin:0;
     padding:0;
 }
 
+.research-text{
+    position:relative;
+    height:120vh;
+    margin-top:50px;
+}
+
+.circle{
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px;
+    font-size: 20px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.yellow{
+    background-color:#f7b62d;
+    color:black;
+}
+
+.blue{
+    background-color:#144cdf;
+    color:white;
+}
+
+.large{
+    height:250px;
+    width:250px;
+}
+
+.medium{
+    height:200px;
+    width:200px;
+}
+
+.small{
+    height:140px;
+    width:140px;
+
+}
+
+#large-yellow-circle{
+    position:absolute;
+    left:5%;
+}
+
+#small-blue-circle{
+    position:absolute;
+    right:40%;
+    top:30%;
+    z-index:20;
+}
+
+#medium-blue-circle{
+    position:absolute;
+    right:5%;
+    top:10%;
+}
+
+#medium-yellow-circle{
+    position:absolute;
+    left: 8%;
+    top:50%;
+}
+
+.research-text .read-book-girl-img{
+    position:absolute;
+    width:30%;
+    right:5%;
+    top:55%;
+    min-width:300px;
+}
+
+.ebuddy-competitor-analysis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .ebuddy-competitor-analysis .competitor-analysis-text{
     display:flex;
     flex-direction:column;
-    width:40%;
     text-align:center;
+    width: 45%;
+}
+
+.ebuddy-competitor-analysis .ebuddy-competitors{
+    width:45%;
 }
 
 .ebuddy-competitor-analysis h2{
@@ -82,4 +232,519 @@ section{
     margin:0;
     padding:0;
     margin-bottom:20px;
+}
+
+@media only screen and (max-width: 800px){
+    .ebuddy-research .ebuddy-research-img{
+        width:60% !important;
+    }
+
+    .ebuddy-research p{
+        font-size:16px !important;
+    }
+    
+    .ebuddy-competitor-analysis{
+        flex-direction: column !important;
+    }
+
+    .ebuddy-competitor-analysis .competitor-analysis-text{
+        width: 100% !important;
+    }
+
+    .ebuddy-competitor-analysis .ebuddy-competitors{
+        width:100% !important;
+        margin-top:50px !important;
+    }
+
+    .research-text{
+        height:180vh;
+        display:flex !important;
+        flex-direction:column;
+        position:static!important;
+        align-items:center;
+        margin-top:20px;
+    }
+
+    .circle{
+        font-size: 16px !important;
+        font-weight: 600;
+        padding:50px;
+    }    
+
+    .large{
+    height:160px !important;
+    width:160px !important;
+    }
+
+    .medium{
+        height:140px !important;
+        width:140px !important;
+    }
+
+    .small{
+        height:100px!important;
+        width:100px!important;
+    }
+
+    #large-yellow-circle{
+        position:static!important;
+        left:auto;
+        margin-bottom:10px;
+    }
+
+
+    #small-blue-circle{
+        position:static!important;
+        right:auto;
+        top:auto;
+        margin-bottom:10px;
+    }
+
+    #medium-blue-circle{
+        position:static!important;
+        left:20%;
+        top:auto;
+        margin-bottom:10px;
+    }
+
+    #medium-yellow-circle{
+        position:static!important;
+        left:auto;
+        top:auto;
+        margin-bottom:10px;
+    }
+
+    .research-text .read-book-girl-img{
+        position:static!important;
+        height:100%!important;
+        right:auto;
+        top:auto;
+    }
+}
+
+
+
+/* definition */
+.ebuddy-definition{
+    margin-top:200px;
+}
+
+.ebuddy-definition .ebuddy-definition-img{
+    width:20%;
+    margin-bottom:20px;
+}
+
+.ebuddy-definition h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.ebuddy-definition p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-definition .ebuddy-user-persona{
+    margin-top:100px;
+}
+
+.ebuddy-user-persona .ebuddy-user-persona-img{
+    width:100%;
+}
+
+@media only screen and (max-width: 800px){
+    .ebuddy-definition .ebuddy-definition-img{
+        width:60% !important;
+    }
+
+    .ebuddy-definition h2{
+        font-size:24px;
+        margin-bottom:0px!important;
+    }
+
+    .ebuddy-definition p{
+        font-size:16px;
+    }
+}
+
+/* ideation */
+.ebuddy-ideation{
+    margin-top:200px;
+}
+
+.ebuddy-ideation .ebuddy-ideation-img{
+    width:20%;
+    margin-bottom:20px;
+}
+
+.ebuddy-ideation h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.ebuddy-ideation p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-ideation .ebuddy-user-flow{
+    margin-top:100px;
+}
+
+.ebuddy-ideation .ebuddy-storyboard-img{
+    width:100%;
+}
+
+.ebuddy-user-flow .user-flow-cards{
+    display:flex;
+    justify-content: space-between;
+}
+
+.uf-cards{
+    width:25%;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: space-between;
+    margin-top:40px;
+    text-decoration:none;
+}
+
+.uf-cards .ufc-img{
+    width:100%;
+    border-radius:4px 4px 0 0;
+}
+
+.uf-cards .ufc-img:hover{
+    width:100%;
+    border-radius:4px 4px 0 0;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.uf-cards .ufc-text p{ 
+     text-align: center;
+     font-weight:400;
+}
+
+
+.uf-cards .ufc-text{
+    border-radius:0 0 4px 4px;
+    padding:10px 10px;
+    background-color: #144cdf;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+@media only screen and (max-width: 800px){
+    .ebuddy-ideation .ebuddy-ideation-img{
+        width:60%;
+    }
+
+    .ebuddy-ideation h2{
+        font-size:24px;
+        margin-bottom:0px !important;
+    }
+
+    .ebuddy-ideation p{
+        font-size:16px;
+    }
+
+    .ebuddy-user-flow .user-flow-cards{
+        flex-direction:column;
+    }
+
+    .uf-cards{
+        width: 100% !important;
+    }
+}
+
+/* prototyping */
+.ebuddy-prototyping{
+    margin-top:200px;
+}
+
+.ebuddy-prototyping .ebuddy-prototyping-img{
+    width:24%;
+    margin-bottom:20px;
+}
+
+.ebuddy-prototyping h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.ebuddy-prototyping p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-prototyping .ebuddy-low-fidelity{
+    width:80%;
+     display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ebuddy-prototyping .ebuddy-low-fidelity-container{
+    margin-top:60px;
+}
+
+@media only screen and (max-width: 800px){
+    .ebuddy-prototyping .ebuddy-prototyping-img{
+        width:70%;
+    }
+
+    .ebuddy-prototyping h2{
+        font-size:24px;
+        margin-bottom:0px !important;
+    }
+
+    .ebuddy-prototyping p{
+        font-size:16px;
+    }
+
+    .ebuddy-prototyping .ebuddy-low-fidelity{
+        width:100%;
+    }
+}
+
+/* testing */
+.ebuddy-testing{
+    margin-top:200px;
+}
+
+.ebuddy-testing .ebuddy-testing-img{
+    width:18%;
+    margin-bottom:20px;
+}
+
+.ebuddy-testing .ebuddy-usability-testing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ebuddy-usability-testing-text h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+
+.ebuddy-usability-testing-text p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-usability-testing-text ul{
+    list-style: none;
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-usability-testing .ebuddy-usability-testing-text{
+    width:70%;
+}
+
+.ebuddy-annotation{
+    text-align:right;
+    margin-bottom: 200px;
+}
+
+.ebuddy-annotation .ebuddy-annotation-img{
+    width:70%;
+}
+
+.ebuddy-annotation h3{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:300;
+    margin:0;
+    padding:0;
+}
+
+.ebuddy-testing .ebuddy-mockups{
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media only screen and (max-width: 800px){
+    .ebuddy-testing .ebuddy-testing-img{
+        width:55% !important;
+    }
+
+    .ebuddy-testing .ebuddy-usability-testing{
+        flex-direction:column;
+    }
+
+    .ebuddy-usability-testing-text h2{
+        font-size:24px;
+        margin-bottom:0px !important;
+    }
+
+    .ebuddy-usability-testing-text p{
+        font-size:16px;
+    }
+
+    .ebuddy-usability-testing-text ul{
+        font-size:16px;
+    }
+
+    .ebuddy-usability-testing .ebuddy-usability-testing-text{
+        width:100%;
+    }
+
+    .ebuddy-annotation{
+        text-align:center;
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+
+    .ebuddy-annotation h3{
+        margin-top:8px;
+        font-size:14px;
+    }
+
+    .ebuddy-annotation .ebuddy-annotation-img{
+        width:100%;
+    }
+
+    .ebuddy-testing .ebuddy-mockups{
+        width:100% !important;
+    }
+}
+
+/* summary */
+.ebuddy-summary{
+    margin-top:200px;
+}
+
+.ebuddy-summary .ebuddy-summary-img{
+    width:20%;
+    margin-bottom:20px;
+}
+
+.ebuddy-summary ul{
+    list-style: none;
+    font-family:'Nunito', sans-serif;
+    font-size:22px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+@media only screen and (max-width: 800px){
+    .ebuddy-summary .ebuddy-summary-img{
+        width:60%;
+    }
+
+    .ebuddy-summary ul{
+        font-size:16px;
+    }
+}
+
+/* Other case studies */
+.more-case-studies h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.DESE-img, .Native-ARC-img{
+    width:80%;
+}
+
+.DESE-img:hover{
+    opacity:50%;
+    cursor: pointer;
+}
+
+.Native-ARC-img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.more-case-studies .case-studies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:center;
+    margin-top:40px;
+    
+}
+
+.case-studies h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color:white;
+    margin:0;
+    padding:0;
+    font-weight:400;
+}
+
+.case-studies h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px){
+    .more-case-studies{
+        margin-top:100px;
+    }
+    
+    .more-case-studies h2{
+        font-size:24px!important;
+    }
+
+    .case-studies h3{
+        font-size:20px!important;
+    }
+
+    .more-case-studies .case-studies{
+        grid-template-rows: 1fr 1fr!important;
+        grid-template-columns: 1fr!important;
+    }
 }
