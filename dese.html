@@ -15,6 +15,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
 </head>
 
 <body>
@@ -35,10 +39,10 @@
     <a class="navigation-link" href="contact.html">Contact</a>
   </div>
 
-  <a href="#navigation"><img src="images/dese/chevron.png" alt="chevron" class="dese-chevron"></a>
+  <a href="#navigation"><img src="images/dese/chevron.svg" alt="chevron" class="dese-chevron"></a>
 
   <section class="dese-hero">
-    <img src="images/dese/dese-hero.png" alt="dese-img" class="dese-img">
+    <img src="images/dese/dese-hero.svg" alt="dese-img" class="dese-img">
         <a href="#dese-about" class="arrow-link">
             <img src="images/arrow.svg" alt="arrow-white" class="arrow-white">
         </a>
@@ -60,7 +64,7 @@
 </section>
 
 <section class="dese-research">
-    <h3>RESEARCH</h3>
+    <h3 id="research-title">RESEARCH</h3>
     <h2>User Interface Research outcomes</h2>
     <br>
     <p>We have utilised three research methods to identify any UI pain points that users experience while interacting with the DESE website: heuristic evaluation, colour accessibility test and moderated remote usability tests.</p>
@@ -103,67 +107,73 @@
     <div class="card-sorting">
         <h2>Card Sorting</h2>
         <br>
-        <p>Cards for all the primary and secondary pages that appear in the DESE website navigation were created. We created a new website structure by using the define, group and structure approach.  </p>
-        <img src="images/dese/card-sorting.svg" alt="card-sorting" class="card-sorting-img">
+        <p>Cards for all the primary and secondary pages that appear in the DESE website navigation were created. We created a new website structure by using the define, group and structure approach. </p>
+            <img src="images/dese/card-sorting-img.svg" alt="card-sorting" class="card-sorting-img">
     </div>
 
     <div class="sitemap">
         <h2>Sitemap</h2>
-        <img src="images/dese/site-map-1.svg" alt="sitemap-1" class="sitemap-img">
-        <h5>Navigation bar hierarchy </h5>
-        <img src="images/dese/site-map-2.svg" alt="sitemap-2" class="sitemap-img">
-        <h5>Footer hierarchy </h5>
+        <br>
+        <div class="sitemap-container">
+            <img src="images/dese/site-map-1.svg" alt="sitemap-1" class="sitemap-img">
+            <h5>Navigation Bar Hierarchy </h5>
+            <img src="images/dese/site-map-2.svg" alt="sitemap-2" class="sitemap-img">
+            <h5>Footer Hierarchy </h5>
+        </div>
     </div>
 </section>
 
 <section class="dese-design">
-    <h3>DESIGN</h3>
-    <h2>User Interface Designs</h2>
+    <h3 id="design-title">DESIGN</h3>
+    <h2 id="user-interface-design-title">User Interface Designs</h2>
     <div class="title-text">
         <h2>Colour Palette & Typography </h2>
+        <br>
         <p>A range of colours and fonts were selected inspired by the original brand design.</p>
     </div>
     <br>
     <h4>Primary colours</h4>
+    <br>
     <p>Cyan blue is a restful and calming colour that symbolises relaxation, trust and serenity. Hot pink calls to mind feelings of alert, passion and warmth which is great for CTA buttons. </p>
     <div class="primary-colours">
         <div class="dark-cyan-blue">
-            <img src="images/dese/dark-cyan-blue-img.svg" alt="dark-cyan-blue" class="darl-cyan-blue-img">
-            <h4>Dark Cyan Blue</h4>
-            <h5>#034aa6</h5>
+            <img src="images/dese/dark-cyan-blue-img.svg" alt="dark-cyan-blue" class="color-img">
+            <h4 id="dark-cyan-blue">Dark Cyan Blue</h4>
+            <h5 id="dark-cyan-blue-hex-code">#034aa6</h5>
         </div>
 
         <div class="cyan-blue">
-            <img src="images/dese/cyan-blue.svg" alt="cyan-blue" class="cyan-blue-img">
-            <h4>Cyan Blue</h4>
-            <h5> #0476d9</h5>
+            <img src="images/dese/cyan-blue.svg" alt="cyan-blue" class="color-img">
+            <h4 id="cyan-blue">Cyan Blue</h4>
+            <h5 id="cyan-blue-hex-code"> #0476d9</h5>
         </div>
 
         <div class="hot-pink">
-            <img src="images/dese/hot-pink.svg" alt="hot-pink" class="hot-pink-img">
-            <h4>Hot Pink</h4>
-            <h5>#ed2160</h5>
+            <img src="images/dese/hot-pink.svg" alt="hot-pink" class="color-img">
+            <h4 id="hot-pink">Hot Pink</h4>
+            <h5 id="hot-pink-hex-code">#ed2160</h5>
         </div>
     </div>
 
-    <h4>Secondary colours</h4>
+    <h4 id="secondary-colours">Secondary colours</h4>
+    <br>
     <div class="secondary-colours">
         <div class="cyan">
-            <img src="images/dese/cyan.svg" alt="cyan" class="cyan-img">
-            <h4>Cyan</h4>
-            <h5>#06aff2</h5>
+            <img src="images/dese/cyan.svg" alt="cyan" class="color-img">
+            <h4 id="cyan">Cyan</h4>
+            <h5 id="cyan-hex-code">#06aff2</h5>
         </div>
 
         <div class="orange-peel">
-            <img src="images/dese/orange-peel.svg" alt="orange-peel" class="orange-peel-img">
-            <h4>Orange Peel</h4>
-            <h5>#f29f05</h5>
+            <img src="images/dese/orange-peel.svg" alt="orange-peel" class="color-img">
+            <h4 id="orange-peel">Orange Peel</h4>
+            <h5 id="orange-peel-hex-code">#f29f05</h5>
         </div>
 
         <div class="yellow">
-            <img src="images/dese/yellow.svg" alt="yellow" class="yellow-img">
-            <h4>Yellow</h4>
-            <h5>#f2b704</h5>
+            <img src="images/dese/yellow.svg" alt="yellow" class="color-img">
+            <h4 id="yellow">Yellow</h4>
+            <h5 id="yellow-hex-code">#f2b704</h5>
         </div>
     </div>
 
@@ -172,18 +182,18 @@
     </div>
 
     <div class="typography-text-demo">
-        <p>Poppins</p>
+        <p id="poppins">Poppins</p>
         <div class="abc-poppins">
-            <p>AaBbCc</p>
+            <p id="abc">AaBbCc</p>
             <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ
                 abcdefghijklmnopqrstuvwxyz
                 0123456789
                 ~%!@#$%^&*-_=+
                  []{}()|\/‘’”,.;:?</p>
         </div>
-        <p>Open Sans</p>
+        <p id="open-sans">Open Sans</p>
         <div class="abc-open-sans">
-            <p>AaBbCc</p>
+            <p id="abc-1">AaBbCc</p>
             <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ
                 abcdefghijklmnopqrstuvwxyz
                 0123456789
@@ -207,22 +217,22 @@
             <br>
             <p>Illustrations were retrieved from unDraw.</p>
         </div>
-        <img src="images/dese/dese-illutration-1.svg" alt="dese-illutration-1" class="dese-illutration-1">
-        <img src="images/dese/dese-illutration-2.svg" alt="dese-illutration-2" class="dese-illutration-2">
-        <img src="images/dese/dese-illutration-3.svg" alt="dese-illutration-3" class="dese-illutration-3">
-        <img src='images/dese/dese-illutration-4.svg' alt="dese-illutration-4" class="dese-illutration-4">
-        <img src="images/dese/dese-illutration-5.svg" alt="dese-illutration-5" class="dese-illutration-5">
+        <img src="images/dese/dese-illutration-1.svg" alt="dese-illutration-1" class="dese-illutration">
+        <img src="images/dese/dese-illutration-2.svg" alt="dese-illutration-2" class="dese-illutration">
+        <img src="images/dese/dese-illutration-3.svg" alt="dese-illutration-3" class="dese-illutration">
+        <img src='images/dese/dese-illutration-4.svg' alt="dese-illutration-4" class="dese-illutration">
+        <img src="images/dese/dese-illutration-5.svg" alt="dese-illutration-5" class="dese-illutration">
     </div>
 </section>
 
 <section class="dese-testing">
-    <h3>ITERATE</h3>
+    <h3 id="testing-title">ITERATE</h3>
     <h2>User Interface Design Iterations</h2>
     <div class="dese-usability-testing">
         <div class="dese-usability-testing-text">
-            <h2>Usability Testing</h2>
-            <br>
+            <h2 id="usability-testing-title">Usability Testing</h2>
             <p>The objective was to pinpoint any UI design issues with the high-fidelity mobile and desktop prototypes with functioning navigation through completing a series of tasks. </p>
+            <br>
             <ul>
                 <li>- 7 users, 5 tasks.</li>
                 <li>- 100% success rate for each task.</li>
@@ -239,7 +249,7 @@
 </section>
 
 <section class="dese-summary">
-    <h2>Key takeaways</h2>
+    <h2>SUMMARY</h2>
     <ul>
         <li>- Gave users a primary path to reach the desired page efficiently and seamlessly.</li>
         <br>
@@ -247,19 +257,26 @@
         <br>
         <li>- As UI designers we need to familiarise ourselves with responsive designs, since there is a growing number of devices available to us with different screen sizes, orientations and platforms.</li>
         <br>
-        <li>Success metric: We learned a lot about UI design and it will help us smash the next project!</li>
+        <li>- Success metric: We learned a lot about UI design and it will help us smash the next project!</li>
     </ul>
 </section>
 
-<iframe src="https://marvelapp.com/prototype/5734b0i?emb=1&iosapp=false&frameless=false" width="600" height="1465" frameborder="0"></iframe>
+
+    <iframe src="https://marvelapp.com/prototype/5734b0i?emb=1&iosapp=false&frameless=false" width="600" height="900" frameborder="0"></iframe>
+
 
 <section class="more-case-studies">
     <h2>Check Out More Below</h2>
     <div class="case-studies">
-        <div class="DESE">
-            <img src="images/ebuddy.svg" alt="ebuddy" class="ebuddy-img">
-            <h3>eBuddy</h3>>
+        <div class="ebuddy">
+            <a href="ebuddy.html">
+                <img src="images/ebuddy.svg" alt="ebuddy" class="ebuddy-img">
+            </a>
+            <a href="ebuddy.html">
+                <h3>eBuddy</h3>
+            </a>
         </div>
+        
         <div class="Native ARC">
             <img src="images/Native ARC.svg" alt="Native ARC" class="Native-ARC-img">
             <h3>Native ARC</h3>

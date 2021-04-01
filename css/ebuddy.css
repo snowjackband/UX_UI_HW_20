@@ -88,7 +88,6 @@ section{
     color:white;
     margin:0;
     padding:0;
-    margin-bottom:20px;
 }
 
 .ebuddy-about p{
@@ -109,7 +108,7 @@ section{
         font-size:16px !important;
     }
     .ebuddy-about h2{
-        font: size 24px !important;
+        font-size: 24px !important;
     }
 
 }
@@ -118,9 +117,19 @@ section{
     margin-top:100px;
 }
 
-.ebuddy-research .ebuddy-research-img{
-    width:20%;
-    margin-bottom:20px;
+.ebuddy-research #research-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.ebuddy-research h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
 }
 
 .ebuddy-research p{
@@ -235,8 +244,16 @@ section{
 }
 
 @media only screen and (max-width: 800px){
-    .ebuddy-research .ebuddy-research-img{
-        width:60% !important;
+    .ebuddy-research #research-title{
+        font-size:16px!important;
+    }
+
+    .ebuddy-research h1{
+        font-size:24px!important;
+    }
+
+    .ebuddy-research h2{
+        font-size:24px!important;
     }
 
     .ebuddy-research p{
@@ -329,9 +346,11 @@ section{
     margin-top:200px;
 }
 
-.ebuddy-definition .ebuddy-definition-img{
-    width:20%;
-    margin-bottom:20px;
+.ebuddy-definition #definition-title{
+     color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
 }
 
 .ebuddy-definition h2{
@@ -340,7 +359,6 @@ section{
     color:white;
     margin:0;
     padding:0;
-    margin-bottom:20px;
 }
 
 .ebuddy-definition p{
@@ -361,13 +379,12 @@ section{
 }
 
 @media only screen and (max-width: 800px){
-    .ebuddy-definition .ebuddy-definition-img{
-        width:60% !important;
+    .ebuddy-definition #definition-title{
+        font-size:16px!important;
     }
 
     .ebuddy-definition h2{
-        font-size:24px;
-        margin-bottom:0px!important;
+        font-size:24px!important;
     }
 
     .ebuddy-definition p{
@@ -380,9 +397,11 @@ section{
     margin-top:200px;
 }
 
-.ebuddy-ideation .ebuddy-ideation-img{
-    width:20%;
-    margin-bottom:20px;
+.ebuddy-ideation #ideation-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
 }
 
 .ebuddy-ideation h2{
@@ -391,7 +410,6 @@ section{
     color:white;
     margin:0;
     padding:0;
-    margin-bottom:20px;
 }
 
 .ebuddy-ideation p{
@@ -455,13 +473,12 @@ section{
 } 
 
 @media only screen and (max-width: 800px){
-    .ebuddy-ideation .ebuddy-ideation-img{
-        width:60%;
+    .ebuddy-ideation #ideation-title{
+        font-size:16px!important;
     }
 
     .ebuddy-ideation h2{
         font-size:24px;
-        margin-bottom:0px !important;
     }
 
     .ebuddy-ideation p{
@@ -482,9 +499,11 @@ section{
     margin-top:200px;
 }
 
-.ebuddy-prototyping .ebuddy-prototyping-img{
-    width:24%;
-    margin-bottom:20px;
+.ebuddy-prototyping #prototyping-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
 }
 
 .ebuddy-prototyping h2{
@@ -493,7 +512,6 @@ section{
     color:white;
     margin:0;
     padding:0;
-    margin-bottom:20px;
 }
 
 .ebuddy-prototyping p{
@@ -517,13 +535,12 @@ section{
 }
 
 @media only screen and (max-width: 800px){
-    .ebuddy-prototyping .ebuddy-prototyping-img{
-        width:70%;
+    .ebuddy-prototyping #prototyping-title{
+        font-size:16px!important;
     }
 
     .ebuddy-prototyping h2{
-        font-size:24px;
-        margin-bottom:0px !important;
+        font-size:24px!important;
     }
 
     .ebuddy-prototyping p{
@@ -540,9 +557,11 @@ section{
     margin-top:200px;
 }
 
-.ebuddy-testing .ebuddy-testing-img{
-    width:18%;
-    margin-bottom:20px;
+.ebuddy-testing #testing-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
 }
 
 .ebuddy-testing .ebuddy-usability-testing{
@@ -556,7 +575,6 @@ section{
     color:white;
     margin:0;
     padding:0;
-    margin-bottom:20px;
 }
 
 .ebuddy-usability-testing-text p{
@@ -594,10 +612,11 @@ section{
 .ebuddy-annotation h3{
     font-family:'Nunito', sans-serif;
     font-size:20px;
-    color:white;
+    color:#fe5621;
     font-weight:300;
     margin:0;
     padding:0;
+    margin-top:10px;
 }
 
 .ebuddy-testing .ebuddy-mockups{
@@ -608,8 +627,8 @@ section{
 }
 
 @media only screen and (max-width: 800px){
-    .ebuddy-testing .ebuddy-testing-img{
-        width:55% !important;
+    .ebuddy-testing #testing-title{
+        font-size:16px!important;
     }
 
     .ebuddy-testing .ebuddy-usability-testing{
@@ -617,8 +636,7 @@ section{
     }
 
     .ebuddy-usability-testing-text h2{
-        font-size:24px;
-        margin-bottom:0px !important;
+        font-size:24px!important;
     }
 
     .ebuddy-usability-testing-text p{
@@ -658,9 +676,13 @@ section{
     margin-top:200px;
 }
 
-.ebuddy-summary .ebuddy-summary-img{
-    width:20%;
-    margin-bottom:20px;
+.ebuddy-summary #summary-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:#f7b62d;
+    margin:0;
+    padding:0;
+    margin-bottom:10px;
 }
 
 .ebuddy-summary ul{
@@ -674,8 +696,8 @@ section{
 }
 
 @media only screen and (max-width: 800px){
-    .ebuddy-summary .ebuddy-summary-img{
-        width:60%;
+    .ebuddy-summary #summary-title{
+        font-size:24px!important;
     }
 
     .ebuddy-summary ul{
@@ -690,7 +712,6 @@ section{
     color:white;
     margin:0;
     padding:0;
-    margin-bottom:20px;
     text-align: center;
 }
 
@@ -712,8 +733,7 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align:center;
-    margin-top:40px;
-    
+    margin-top:40px; 
 }
 
 .case-studies h3{
@@ -733,6 +753,7 @@ section{
 @media only screen and (max-width: 800px){
     .more-case-studies{
         margin-top:100px;
+        margin-bottom:100px;
     }
     
     .more-case-studies h2{
@@ -744,7 +765,9 @@ section{
     }
 
     .more-case-studies .case-studies{
-        grid-template-rows: 1fr 1fr!important;
+        grid-template-rows: repeat(2 48%)!important;
         grid-template-columns: 1fr!important;
+        grid-row-gap:4%;
+        
     }
 }
