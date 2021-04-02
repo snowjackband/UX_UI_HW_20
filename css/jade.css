@@ -1,0 +1,547 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+section{
+    margin:0 80px;
+    min-height: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+    section{
+        min-height:fit-content;
+    }
+}
+
+.jade-chevron{
+    position:fixed;
+    width:48px;
+    height:48px;
+    right:80px;
+    top:90vh;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 800px) {
+    .ebuddy-chevron{
+        width: 36px !important;;
+        height: 36px !important;
+    }
+}
+
+/* hero section */
+.jade-hero{
+    text-align: center;
+    position:relative; 
+    margin:auto 0;
+    height:calc(100vh - 100px);
+}
+
+.jade-hero .jade-img{
+    width:50%;
+     margin-top: 100px;
+}
+
+.jade-hero .arrow-white{
+    position:absolute;
+    left:calc(50% - 25px);
+    width:50px;
+    animation: bounce-arrow 2s infinite;
+    cursor: pointer;
+    bottom:60px; 
+}
+
+@keyframes bounce-arrow{
+    from{
+        bottom:60x;
+    }
+
+    50%{
+        bottom:40px;
+    }
+    
+    to{
+        bottom:60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .arrow-link{
+        display: none !important;
+    }
+
+
+   .jade-hero .jade-img{
+        width:80% !important;
+    }
+
+   .jade-hero{
+       height:100%;
+   }
+}
+
+/* about the project */
+.jade-about{
+    margin-top:200px;
+}
+
+.jade-about h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jade-about p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    word-wrap: break-word;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+@media only screen and (max-width: 800px){
+    .jade-about{
+        margin-top:0px !important;
+    }
+    .jade-about p{
+        font-size:16px !important;
+    }
+    .jade-about h2{
+        font-size: 24px !important;
+    }
+
+}
+
+/* research */
+.jade-research{
+    margin-top:100px;
+}
+
+.jade-research #research-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.jade-research h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jade-research p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+.jade-research ul{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+    list-style:none;
+}
+
+.jade-research .jade-competitor-analysis{
+    margin-top:100px;
+}
+
+.jade-competitor-analysis h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jade-competitor-analysis .jade-competitor-analysis-text{
+    margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.jade-competitor-analysis-text .silk-initiative{
+    width:30%;
+}
+
+.jade-competitor-analysis-text .connectX{
+     width:34%;
+}
+
+.jade-competitor-analysis-text .bastion-collective{
+    width:24%;
+}
+
+.jade-definition{
+    margin-top:200px;
+}
+
+.jade-definition #definition-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.jade-definition h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jade-definition p{
+   font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%; 
+}
+
+.jade-definition .jade-user-persona{
+    margin-top:100px;
+}
+
+.jade-user-persona .jade-user-persona-img{
+    width:100%;
+}
+
+.jade-definition .jade-feature-prioritisation{
+    margin-top:100px;
+}
+
+.jade-definition .feature-prioritisation-img{
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jade-definition .jade-solution-statement{
+    margin-top:100px;
+    width:40%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    margin-left:auto;
+    margin-right:auto;
+    font-style: italic;
+}
+
+.jade-definition .jade-ideation{
+    margin-top:100px;
+}
+
+/* ideation */
+.jade-ideation{
+    margin-top:200px;
+}
+
+.jade-ideation #ideation-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.jade-ideation h2{
+   font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0; 
+}
+
+.jade-ideation p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+.jade-ideation .jade-storyboard-img{
+    width:100%;
+    border-radius:10px;
+}
+
+.jade-ideation .jade-sitemap{
+    margin-top:100px;
+}
+
+.jade-sitemap .jade-sitemap-img{
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* prototyping */
+.jade-prototyping{
+    margin-top:200px;
+}
+
+.jade-prototyping #prototyping-title{
+    color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.jade-prototyping h2{
+     font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jade-prototyping p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+.jade-prototyping .jade-low-fidelity-container{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.jade-low-fidelity-container .jade-low-fidelity{
+    width:40%;
+    border-radius:5px;
+}
+
+#high-fidelity-wireframes{
+    margin-top:100px;
+}
+
+.jade-prototyping .jade-high-fidelity-container{
+     display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.jade-high-fidelity-container .jade-high-fidelity{
+     width:40%;
+    border-radius:5px;
+}
+
+/* testing */
+.jade-testing{
+    margin-top:200px;
+}
+
+.jade-testing #testing-title{
+      color:#F7B62D;
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.jade-testing .jade-usability-testing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jade-usability-testing-text h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.jade-usability-testing-text p{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+.jade-usability-testing-text ul{
+    list-style: none;
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.jade-usability-testing .jade-usability-testing-text{
+    width:50%;
+}
+
+.jade-annotation{
+    text-align:center;
+    margin-bottom: 200px;
+}
+
+.jade-annotation .jade-annotation-img{
+    width:80%;
+}
+
+.jade-annotation h3{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    color:#fe5621;
+    font-weight:300;
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+
+.jade-testing .jade-mockups{
+    width:60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.jade-agencies-gif{
+    margin-top:100px;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* summary */
+.jade-summary{
+    margin-top:200px;
+}
+
+.jade-summary #summary-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:#f7b62d;
+    margin:0;
+    padding:0;
+    margin-bottom:10px;
+}
+
+.jade-summary ul{
+    list-style: none;
+    font-family:'Nunito', sans-serif;
+    font-size:22px;
+    color:white;
+    font-weight:100;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+@media only screen and (max-width: 800px){
+    .jade-summary #summary-title{
+        font-size:24px!important;
+    }
+
+    .jade-summary ul{
+        font-size:16px;
+    }
+}
+
+/* Other case studies */
+.case-studies a{
+    text-decoration:none;
+}
+
+.more-case-studies h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.DESE-img, .ebuddy-img{
+    width:80%;
+}
+
+.DESE-img:hover{
+    opacity:50%;
+    cursor: pointer;
+}
+
+.ebuddy-img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.more-case-studies .case-studies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:center;
+    margin-top:40px; 
+}
+
+.case-studies h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color:white;
+    margin:0;
+    padding:0;
+    font-weight:400;
+}
+
+.case-studies h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px){
+    .more-case-studies{
+        margin-top:100px;
+        margin-bottom:100px;
+    }
+    
+    .more-case-studies h2{
+        font-size:24px!important;
+    }
+
+    .case-studies h3{
+        font-size:20px!important;
+    }
+
+    .more-case-studies .case-studies{
+        grid-template-rows: repeat(2 48%)!important;
+        grid-template-columns: 1fr!important;
+        grid-row-gap:4%;
+        
+    }
+}

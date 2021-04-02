@@ -37,6 +37,7 @@ section{
     text-align: center;
     position:relative; 
     margin:auto 0;
+    height: calc(100vh - 100px);
 }
 
 .dese-hero .dese-img{
@@ -50,20 +51,20 @@ section{
     width:50px;
     animation: bounce-arrow 2s infinite;
     cursor: pointer;
-    bottom:-30px; 
+    bottom:60px; 
 }
 
 @keyframes bounce-arrow{
     from{
-        bottom:-30x;
+        bottom:60x;
     }
 
     50%{
-        bottom:-50px;
+        bottom:40px;
     }
     
     to{
-        bottom:-30px;
+        bottom:60px;
     }
 }
 
@@ -74,6 +75,10 @@ section{
 
     .dese-hero .dese-img{
         width:100% !important;
+    }
+
+    .dese-hero{
+        height:100%;
     }
 }
 

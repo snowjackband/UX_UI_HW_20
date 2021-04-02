@@ -37,6 +37,7 @@ section{
     text-align: center;
     position:relative; 
     margin:auto 0;
+    height: calc(100vh - 100px);
 }
 
 .ebuddy-hero .ebuddy-img{
@@ -74,6 +75,10 @@ section{
 
     .ebuddy-hero .ebuddy-img{
         width:100% !important;
+    }
+
+    .ebuddy-hero{
+        height:100%;
     }
 }
 
@@ -349,7 +354,7 @@ section{
 }
 
 .ebuddy-definition #definition-title{
-     color:#F7B62D;
+    color:#F7B62D;
     font-family: 'Lato', sans-serif;
     font-size:20px;
     margin-bottom:10px;
