@@ -93,6 +93,7 @@ section{
     margin:0;
     padding:0;
     margin-top:18px;
+    line-height: 150%;
 }
 
 .img-myself > .myself{
@@ -271,6 +272,7 @@ section{
     font-weight: 300;
     margin:0;
     margin-top:10px;
+    line-height: 150%;
 }
 
 .content-case-study .case-study-img:hover{
@@ -361,6 +363,7 @@ section{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    line-height: 150%;
 }
 
 /* Get in touch style */

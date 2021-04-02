@@ -446,6 +446,8 @@ section{
     grid-gap:5%;
     text-align: center;
     margin-top:60px;
+    justify-content: center;
+    align-items: center;
 }
 
 #dark-cyan-blue{
@@ -502,6 +504,8 @@ section{
     grid-template-columns: repeat(3, 30%);
     grid-gap:5%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #cyan{
@@ -557,7 +561,7 @@ section{
 
 .typography-text-intro p{
     font-family:'Nunito', sans-serif;
-    font-size:20px;
+    font-size:22px;
     color:white;
     font-weight:100;
     margin:0;
@@ -568,8 +572,9 @@ section{
 .typography-text-demo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 100px;
+    text-align: center;
 }
 
 .typography-text-demo #poppins{
@@ -579,18 +584,17 @@ section{
 }
 
 .abc-poppins{
-    margin-left:50px;
     font-family: 'Poppins', sans-serif;
 }
 
 .abc-poppins #abc{
     font-size:30px;
-    font-weight:400;
+    font-weight:200;
+    color: #d3d3d3;
 }
 
 .abc-open-sans{
     font-family: 'Open Sans', sans-serif;
-    margin-left:50px;
 }
 
 #open-sans{
@@ -601,7 +605,8 @@ section{
 
 .abc-open-sans #abc-1{
     font-size:30px;
-    font-weight:400;
+    font-weight:200;
+    color: #d3d3d3;
 }
 
 .dese-design .iconography{
@@ -617,7 +622,6 @@ section{
 
 .iconography-text{
     width:20%;
-    text-align:center;
 }
 
 .iconography-text h2{
@@ -684,10 +688,6 @@ section{
         font-size:16px;
     }
 
-    .color-img{
-        width:100%;  
-    }
-
     .dese-design .primary-colours{
         grid-template-columns: repeat(2, 50%);
         margin-top:30px;
@@ -745,8 +745,48 @@ section{
          font-size:14px;
      }
 
+     .typography-text-demo{
+         flex-direction: column;
+     }
+
+     .typography-text-demo #poppins{
+        font-size:30px;
+     }
+
+     .abc-poppins #abc{
+         font-size:24px;
+         margin-top: 10px;
+     }
+
+     #open-sans{
+         font-size:30px;
+         margin-top:30px;
+     }
+
+     .abc-open-sans #abc-1{
+         font-size:24px;
+         margin-top: 10px;
+     }
+     
     .dese-design .typography-text-intro{
         padding:0;
+    }
+
+    .dese-design .iconography{
+        flex-direction: column-reverse;
+    }
+
+    .iconography .dese-icons-img{
+        width:100%;
+        margin-top: 20px;
+    }
+
+    .iconography-text{
+        width:100%;
+    }
+
+    .iconography-text h2{
+        font-size:24px;
     }
 
     .dese-design .illutrations{
@@ -757,6 +797,16 @@ section{
     .typography-text-demo{
         flex-direction:column;
     }
+
+    .illutration-text h2{
+        font-size:24px;
+    }
+
+    .illutrations .dese-illutration{
+        width:40%;
+        margin:20px 0;
+    }
+
 }
 
 /* testing */
@@ -911,6 +961,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 @media only screen and (max-width: 800px){
@@ -949,7 +1000,7 @@ iframe{
     text-align: center;
 }
 
-.ebuddy-img, .Native-ARC-img{
+.ebuddy-img, .Jade-agencies-img{
     width:80%;
 }
 
@@ -958,7 +1009,7 @@ iframe{
     cursor: pointer;
 }
 
-.Native-ARC-img:hover{
+.Jade-agencies-img:hover{
     opacity: 50%;
     cursor: pointer;
 }
@@ -985,6 +1036,10 @@ iframe{
 }
 
 .ebuddy a{
+    text-decoration: none;
+}
+
+.Jade-Agencies a{
     text-decoration: none;
 }
 

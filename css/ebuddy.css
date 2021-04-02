@@ -98,6 +98,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 @media only screen and (max-width: 800px){
@@ -139,6 +140,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 .research-text{
@@ -368,6 +370,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 .ebuddy-definition .ebuddy-user-persona{
@@ -419,6 +422,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 .ebuddy-ideation .ebuddy-user-flow{
@@ -459,6 +463,7 @@ section{
 .uf-cards .ufc-text p{ 
      text-align: center;
      font-weight:400;
+     line-height: 150%;
 }
 
 
@@ -521,6 +526,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 .ebuddy-prototyping .ebuddy-low-fidelity{
@@ -584,6 +590,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 .ebuddy-usability-testing-text ul{
@@ -693,6 +700,7 @@ section{
     font-weight:100;
     margin:0;
     padding:0;
+    line-height: 150%;
 }
 
 @media only screen and (max-width: 800px){
@@ -706,6 +714,10 @@ section{
 }
 
 /* Other case studies */
+.case-studies a{
+    text-decoration:none;
+}
+
 .more-case-studies h2{
     font-family: 'Lato', sans-serif;
     font-size: 30px;
@@ -715,7 +727,7 @@ section{
     text-align: center;
 }
 
-.DESE-img, .Native-ARC-img{
+.DESE-img, .Jade-Agencies-img{
     width:80%;
 }
 
@@ -724,7 +736,7 @@ section{
     cursor: pointer;
 }
 
-.Native-ARC-img:hover{
+.Jade-Agencies-img:hover{
     opacity: 50%;
     cursor: pointer;
 }
