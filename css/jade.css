@@ -109,7 +109,7 @@ section{
 
 @media only screen and (max-width: 800px){
     .jade-about{
-        margin-top:0px !important;
+        margin-top:60px !important;
     }
     .jade-about p{
         font-size:16px !important;
@@ -173,11 +173,20 @@ section{
     padding:0;
 }
 
+.jade-competitor-analysis-text h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+}
+
 .jade-competitor-analysis .jade-competitor-analysis-text{
     margin-top:40px;
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:baseline;
 }
 
 .jade-competitor-analysis-text .silk-initiative{
@@ -185,13 +194,70 @@ section{
 }
 
 .jade-competitor-analysis-text .connectX{
-     width:34%;
+     width:30%;
 }
 
 .jade-competitor-analysis-text .bastion-collective{
-    width:24%;
+    width:30%;
 }
 
+@media only screen and (max-width: 800px){
+    .jade-research #research-title{
+        font-size:16px!important;
+    }
+
+    .jade-research h1{
+        font-size:24px!important;
+    }
+
+    .jade-research p{
+        font-size:16px!important;
+    }
+
+    .jade-research ul{
+        font-size:16px!important;
+    }
+
+    .jade-competitor-analysis h2{
+        font-size:24px!important;
+    }
+
+    .jade-competitor-analysis-text h3{
+        font-size:20px;
+    }
+
+    .jade-competitor-analysis .jade-competitor-analysis-text{
+        flex-direction:column;
+    }
+ 
+    .jade-competitor-analysis-text .silk-initiative{
+        width:100%;
+    }
+    
+    .silk-initiative .silk-initiative-img{
+         width:30%;
+    }
+
+    .jade-competitor-analysis-text .connectX{
+        width:100%;
+    }
+
+    .connectX .connectX-img{
+        margin-top:50px;
+        width:40%;
+    }
+
+    .jade-competitor-analysis-text .bastion-collective{
+        width:100%;
+    }
+
+    .bastion-collective .bastion-collective-img{
+        margin-top:50px;
+        width:25%;
+    }
+}
+
+/* definition */
 .jade-definition{
     margin-top:200px;
 }
@@ -251,9 +317,28 @@ section{
     font-style: italic;
 }
 
-.jade-definition .jade-ideation{
-    margin-top:100px;
+@media only screen and (max-width: 800px){
+    .jade-definition #definition-title{
+        font-size:16px!important;
+    }
+
+    .jade-definition h2{
+        font-size:24px!important;
+    }
+
+    .jade-definition p{
+        font-size:16px!important;
+    }
+
+    .jade-definition .feature-prioritisation-img{
+        width:100%;
+    }
+
+    .jade-definition .jade-solution-statement{
+        width:80%;
+    }
 }
+
 
 /* ideation */
 .jade-ideation{
@@ -299,6 +384,28 @@ section{
     display:block;
     margin-left:auto;
     margin-right:auto;
+}
+
+@media only screen and (max-width: 800px){
+    .jade-ideation #ideation-title{
+        font-size:16px;
+    }
+
+    .jade-ideation h2{
+        font-size:24px;
+    }
+
+    .jade-ideation p{
+        font-size:16px;
+    }
+
+    .jade-ideation .jade-storyboard-img{
+        border-radius:1px;
+    }
+
+    .jade-sitemap .jade-sitemap-img{
+        width:100%;
+    }
 }
 
 /* prototyping */
@@ -357,6 +464,45 @@ section{
     border-radius:5px;
 }
 
+@media only screen and (max-width: 800px){
+    .jade-prototyping #prototyping-title{
+        font-size:16px;
+    }
+
+    .jade-prototyping h2{
+        font-size:24px;
+    }
+
+    .jade-prototyping p{
+        font-size:16px;
+    }
+
+    .jade-prototyping .jade-low-fidelity-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top:0;
+    }
+
+    .jade-prototyping .jade-high-fidelity-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top:0;
+    }
+
+    .jade-low-fidelity-container .jade-low-fidelity{
+        border-radius:3px;
+        margin-top: 30px;
+        width:100%;
+    }
+
+    .jade-high-fidelity-container .jade-high-fidelity{
+        border-radius:3px;
+        margin-top: 30px;
+        width:100%;
+    }
+
+}
+
 /* testing */
 .jade-testing{
     margin-top:200px;
@@ -403,7 +549,7 @@ section{
 }
 
 .jade-usability-testing .jade-usability-testing-text{
-    width:50%;
+    width:100%;
 }
 
 .jade-annotation{
@@ -413,6 +559,7 @@ section{
 
 .jade-annotation .jade-annotation-img{
     width:80%;
+    margin-top:60px;
 }
 
 .jade-annotation h3{
@@ -430,6 +577,7 @@ section{
     display:block;
     margin-left:auto;
     margin-right:auto;
+    margin-top:50px;
 }
 
 .jade-agencies-gif{
@@ -438,6 +586,50 @@ section{
     display:block;
     margin-left:auto;
     margin-right:auto;
+}
+
+@media only screen and (max-width: 800px){
+    .jade-testing #testing-title{
+        font-size:16px;
+    }
+
+    .jade-testing .jade-usability-testing{
+        flex-direction: column;
+    }
+
+    .jade-usability-testing-text h2{
+        font-size:24px;
+    }
+
+    .jade-usability-testing-text p{
+        font-size:16px;
+    }
+
+    .jade-usability-testing-text ul{
+        font-size:16px;
+    }
+
+    .jade-usability-testing .jade-usability-testing-text{
+        width:100%;
+    }
+
+    .jade-annotation .jade-annotation-img{
+        width:100%;
+        margin-top:40px;
+    }
+
+    .jade-annotation h3{
+        font-size:16px;
+    }
+
+    .jade-testing .jade-mockups{
+        width:100%;
+        margin-top:0!important;
+    }
+
+    .jade-agencies-gif{
+        width:100%;
+    }
 }
 
 /* summary */
