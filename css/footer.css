@@ -1,5 +1,4 @@
 footer p{
-    padding-left:80px;
     color:white;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -11,4 +10,11 @@ footer{
     height: 40px;
     display: flex;
     align-items: center;
+    margin:0 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    footer{
+        margin: 0 40px;
+    }
 }

@@ -12,7 +12,7 @@ section{
 
 @media only screen and (max-width: 800px) {
     section{
-        margin:40px 80px 100px !important;
+        margin:40px 40px 100px !important;
     }
     .contact h1{
         font-size: 24px !important;
