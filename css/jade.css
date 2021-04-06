@@ -28,8 +28,9 @@ section{
 
 @media only screen and (max-width: 800px) {
     .jade-chevron{
-        width: 36px !important;;
+        width: 36px !important;
         height: 36px !important;
+        right:40px !important;
     }
 }
 
