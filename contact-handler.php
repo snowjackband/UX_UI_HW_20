@@ -11,5 +11,5 @@ if(isset($_POST['submit'])){
     $txt ="You have received an email from ".$firstName + $lastName.".\n\n".$message;
 
     mail($mailTo, $txt, $headers);
-    header("Location:contact.html");
+    header("Location: contact.html");
 }
