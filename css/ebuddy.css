@@ -6,7 +6,7 @@ body{
 }
 
 section{
-    margin:0 80px;
+    margin:0 100px;
     min-height: 500px;
 }
 
@@ -405,7 +405,10 @@ section{
 }
 
 .ebuddy-user-persona .ebuddy-user-persona-img{
-    width:100%;
+    width:80%;
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
 }
 
 @media only screen and (max-width: 800px){
@@ -419,6 +422,10 @@ section{
 
     .ebuddy-definition p{
         font-size:16px;
+    }
+
+    .ebuddy-user-persona .ebuddy-user-persona-img{
+        width:100%;
     }
 }
 
@@ -457,7 +464,10 @@ section{
 }
 
 .ebuddy-ideation .ebuddy-storyboard-img{
-    width:100%;
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ebuddy-user-flow .user-flow-cards{
@@ -522,7 +532,14 @@ section{
     }
 
     .uf-cards{
-        width: 100% !important;
+        width: 60% !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ebuddy-ideation .ebuddy-storyboard-img{
+        width:100%;
     }
 }
 
@@ -557,7 +574,7 @@ section{
 }
 
 .ebuddy-prototyping .ebuddy-low-fidelity{
-    width:80%;
+    width:70%;
      display:block;
     margin-left:auto;
     margin-right:auto;

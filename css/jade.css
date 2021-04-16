@@ -6,7 +6,7 @@ body{
 }
 
 section{
-    margin:0 80px;
+    margin:0 100px;
     min-height: 500px;
 }
 
@@ -373,8 +373,11 @@ section{
 }
 
 .jade-ideation .jade-storyboard-img{
-    width:100%;
+    width:80%;
     border-radius:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jade-ideation .jade-sitemap{
@@ -403,6 +406,7 @@ section{
 
     .jade-ideation .jade-storyboard-img{
         border-radius:1px;
+        width:100%;
     }
 
     .jade-sitemap .jade-sitemap-img{
@@ -442,12 +446,12 @@ section{
 
 .jade-prototyping .jade-low-fidelity-container{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     margin-top:40px;
 }
 
 .jade-low-fidelity-container .jade-low-fidelity{
-    width:40%;
+    width:30%;
     border-radius:5px;
 }
 
@@ -457,12 +461,12 @@ section{
 
 .jade-prototyping .jade-high-fidelity-container{
      display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     margin-top:40px;
 }
 
 .jade-high-fidelity-container .jade-high-fidelity{
-     width:40%;
+    width:30%;
     border-radius:5px;
 }
 
@@ -494,13 +498,13 @@ section{
     .jade-low-fidelity-container .jade-low-fidelity{
         border-radius:3px;
         margin-top: 30px;
-        width:100%;
+        width:70%;
     }
 
     .jade-high-fidelity-container .jade-high-fidelity{
         border-radius:3px;
         margin-top: 30px;
-        width:100%;
+        width:70%;
     }
 
 }
