@@ -1,3 +1,3 @@
-https://snowjackband.github.io/UX_UI_HW_20/index.html
+My First Ever Portfolio
 
-My personal website
+Link: https://aileenxin.com
