@@ -1,3 +1,3 @@
 My First Ever Portfolio
 
-Link: https://aileenxin.com
+This repository contains all the HTML, CSS and JavaScript codes required to develop my first ever porfolio. Please feel free to check out the finalised website: https://aileenxin.com
