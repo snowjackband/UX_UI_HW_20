@@ -1,3 +1,3 @@
-https://snowjackband.github.io/UX_UI_HW_20/index.html
+My First Ever Portfolio
 
-My personal website
+This repository contains all the HTML, CSS and JavaScript codes required to develop my first ever porfolio. Please feel free to check out the finalised website: https://aileenxin.com
